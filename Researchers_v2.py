@@ -188,3 +188,5 @@ a.loc[a['count']>0]
 # imp_info
 #with open('result.json', 'w') as fp:
 #    json.dump(imp_info, fp)
+
+df_ns.to_csv('Data/researchersv2.csv')
