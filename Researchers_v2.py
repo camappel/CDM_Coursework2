@@ -92,8 +92,8 @@ def country_to_continent(country_name):
         return country_continent_name
 # convert
 df_ns['place_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
-# drop country of birth column
-df_ns = df_ns.drop(columns = 'country_of_birth')
+# code country of birth using random numbers
+
 # check numbers in each continent
 a = df_ns.groupby(['place_of_birth']).size().reset_index(name='count')
 #a.loc[a['count']<10]
@@ -175,8 +175,8 @@ imp_info['n_countries_visited'] = tmp[1]
 
 ############### calculate k-anonimity ##################
 # df_ns.groupby(['gender','cc_status', 'place_of_birth']).size().reset_index(name='count')
-a = df_ns.groupby(['cc_status', 'place_of_birth']).size().reset_index(name='count')
-a.loc[a['count']==1]
+a = df_ns.groupby(['cc_status', 'gender']).size().reset_index(name='count')
+a.loc[a['count']>0]
 # 1 with cc_status == 1 in South America & 1 with cc_status == 1 in Antarctica --> further generalisation or pseudonymisation or remove
 
 ############# save CSVs ############

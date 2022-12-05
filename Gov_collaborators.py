@@ -31,23 +31,8 @@ df_s = df[['sid', 'given_name', 'surname', 'phone_number', 'national_insurance_n
 # dataset without sensitive PII
 df_ns = df.drop(columns=['given_name', 'surname', 'phone_number', 'national_insurance_number', 'bank_account_number'])
 
-############### current country: all in UK --> remove ###############
-df_ns = df_ns.drop(columns = 'current_country')
-
-############# birthdate --> age --> banding ###########
-# convert to age
-birthyear = pd.to_datetime(df['birthdate']).dt.year
-df_ns['age'] = 2022 - birthyear
-df_ns = df_ns.drop(columns = ['birthdate'])
-# explore: uniform distribution
-df_ns['age'].describe()
-hist_1 = df_ns['age'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['age'] = pd.qcut(df_ns['age'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['age']).size().reset_index(name='count')
+############### only keep geographic and education characteristics ###############
+df_ns = df_ns[['country_of_birth', 'postcode', 'cc_status', 'education_level']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -108,67 +93,12 @@ df_ns['postcode'] = np.where(df_ns['postcode'].isin(post_agr), '000', df_ns['pos
 post_count = df_ns.groupby(['postcode']).size().reset_index(name='count')
 post_count
 
-################ weight --> banding ###############
-# explore: uniform distribution
-df_ns['weight'].describe()
-hist_1 = df_ns['weight'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['weight'] = pd.qcut(df_ns['weight'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['weight']).size().reset_index(name='count')
-
-################ height --> banding ####################
-# explore: uniform distribution
-df_ns['height'].describe()
-hist_1 = df_ns['height'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['height'] = pd.qcut(df_ns['height'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['height']).size().reset_index(name='count')
-
-################# avg_n_drinks_per_week --> banding ###################
-# explore: uniform distribution
-df_ns['avg_n_drinks_per_week'].describe()
-hist_1 = df_ns['avg_n_drinks_per_week'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['avg_n_drinks_per_week'] = pd.qcut(df_ns['avg_n_drinks_per_week'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['avg_n_drinks_per_week']).size().reset_index(name='count')
-
-##################### avg_n_cigret_per_week--> banding #################
-# explore: uniform distribution
-df_ns['avg_n_cigret_per_week'].describe()
-hist_1 = df_ns['avg_n_cigret_per_week'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['avg_n_cigret_per_week'] = pd.qcut(df_ns['avg_n_cigret_per_week'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['avg_n_cigret_per_week']).size().reset_index(name='count')
-
-#################### n_countries_visited --> banding ###############
-# explore: uniform distribution
-df_ns['n_countries_visited'].describe()
-hist_1 = df_ns['n_countries_visited'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['n_countries_visited'] = pd.qcut(df_ns['n_countries_visited'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['n_countries_visited']).size().reset_index(name='count')
-
 ############### calculate k-anonimity ##################
 df_ns.describe()
 
-# df_ns.groupby(['gender', 'age', 'postcode', 'weight', 'height', 'avg_n_drinks_per_week', 'avg_n_cigret_per_week','n_countries_visited']).size().reset_index(name='count')
-a = df_ns.groupby(['age', 'postcode']).size().reset_index(name='count')
-a.loc[a['count']>0]
+# df_ns.groupby(['cc_status', 'postcode']).size().reset_index(name='count')
+a = df_ns.groupby(['cc_status', 'postcode']).size().reset_index(name='count')
+a.loc[a['count']==1]
 
 # save CSVs
 # sensitive file

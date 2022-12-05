@@ -34,7 +34,10 @@ df_ns = df.drop(columns=['given_name', 'surname', 'phone_number', 'national_insu
 ############### current country: all in UK --> remove ###############
 df_ns = df_ns.drop(columns = 'current_country')
 
-############# birthdate --> age --> banding ###########
+############### remove health info ################
+
+
+############# birthdate --> remove ###########
 # convert to age
 birthyear = pd.to_datetime(df['birthdate']).dt.year
 df_ns['age'] = 2022 - birthyear
