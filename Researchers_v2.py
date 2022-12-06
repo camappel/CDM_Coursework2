@@ -210,5 +210,5 @@ df_s.to_csv('Data/sensitive_info.csv')
 # file for researchers
 df_ns.to_csv('Data/researchers_v2.csv')
 # dictionary
-with open('secretCode.json', 'w') as fp:
+with open('Data/secretCode.json', 'w') as fp:
     json.dump(imp_info, fp)
