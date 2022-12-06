@@ -31,23 +31,8 @@ df_s = df[['sid', 'given_name', 'surname', 'phone_number', 'national_insurance_n
 # dataset without sensitive PII
 df_ns = df.drop(columns=['given_name', 'surname', 'phone_number', 'national_insurance_number', 'bank_account_number'])
 
-############### current country: all in UK --> remove ###############
-df_ns = df_ns.drop(columns = 'current_country')
-
-############# birthdate --> age --> banding ###########
-# convert to age
-birthyear = pd.to_datetime(df['birthdate']).dt.year
-df_ns['age'] = 2022 - birthyear
-df_ns = df_ns.drop(columns = ['birthdate'])
-# explore: uniform distribution
-df_ns['age'].describe()
-hist_1 = df_ns['age'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['age'] = pd.qcut(df_ns['age'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['age']).size().reset_index(name='count')
+############### only keep geographic and education characteristics ###############
+df_ns = df_ns[['country_of_birth', 'postcode', 'cc_status', 'education_level']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -79,15 +64,22 @@ def country_to_continent(country_name):
         country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
         return country_continent_name
 # convert
-df_ns['place_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
+df_ns['continent_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
 # drop country of birth column
 df_ns = df_ns.drop(columns = 'country_of_birth')
 # check numbers in each continent
-a = df_ns.groupby(['place_of_birth']).size().reset_index(name='count')
-#a.loc[a['count']<10]
-#a.loc[a['place_of_birth']=='South America']
+a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
+a.loc[a['count'] < 30]
+# combine Antarctica, Indian Ocean, the Arctic Ocean and South America --> smallest categry contains at least 50 people OR drop the records
+df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'Other continents',
+                                                                   'Indian Ocean': 'Other continents',
+                                                                   'the Arctic Ocean': 'Other continents',
+                                                                   'South America': 'Other continents'})
+# check numbers in each continent
+a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
+a
 
-################ postcode --> banding ################
+############################### postcode --> banding ##################################
 ####### keep outbound characters only
 # define function for finding the index of the first digit in a string
 def find_first_digit(s):
@@ -100,78 +92,49 @@ df_ns['postcode'] = df['postcode'].apply(lambda x: x[:find_first_digit(x)])
 # check number in each category
 post_count = df_ns.groupby(['postcode']).size().reset_index(name='count')
 post_count
-# get the postcode with only 1 person
-post_agr = post_count['postcode'].loc[post_count['count'] == 1]
-# group these postcodes together
-df_ns['postcode'] = np.where(df_ns['postcode'].isin(post_agr), '000', df_ns['postcode'])
-# check number in each category
-post_count = df_ns.groupby(['postcode']).size().reset_index(name='count')
-post_count
+# get dictionary for convert to UK country
+postcode_country = pd.read_csv('Data/postcode_country.csv')
+post_to_country = dict(zip(postcode_country['Postcode area'], postcode_country['Country']))
+# convert to country
+df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
+# drop postcode column
+df_ns = df_ns.drop(columns = 'postcode')
+# check number of individuals in each category
+a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
+a.loc[a['count'] < 30]
+# combine Channel Islands. Isle of Man, Northern Ireland and Wales
+df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Other countries',
+                                                   'Isle of Man': 'Other countries',
+                                                   'Northern Ireland': 'Other countries',
+                                                   'Wales': 'Other countries'})
+# check number of individuals in each category
+a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
+a
 
-################ weight --> banding ###############
-# explore: uniform distribution
-df_ns['weight'].describe()
-hist_1 = df_ns['weight'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['weight'] = pd.qcut(df_ns['weight'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['weight']).size().reset_index(name='count')
-
-################ height --> banding ####################
-# explore: uniform distribution
-df_ns['height'].describe()
-hist_1 = df_ns['height'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['height'] = pd.qcut(df_ns['height'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['height']).size().reset_index(name='count')
-
-################# avg_n_drinks_per_week --> banding ###################
-# explore: uniform distribution
-df_ns['avg_n_drinks_per_week'].describe()
-hist_1 = df_ns['avg_n_drinks_per_week'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['avg_n_drinks_per_week'] = pd.qcut(df_ns['avg_n_drinks_per_week'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['avg_n_drinks_per_week']).size().reset_index(name='count')
-
-##################### avg_n_cigret_per_week--> banding #################
-# explore: uniform distribution
-df_ns['avg_n_cigret_per_week'].describe()
-hist_1 = df_ns['avg_n_cigret_per_week'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['avg_n_cigret_per_week'] = pd.qcut(df_ns['avg_n_cigret_per_week'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['avg_n_cigret_per_week']).size().reset_index(name='count')
-
-#################### n_countries_visited --> banding ###############
-# explore: uniform distribution
-df_ns['n_countries_visited'].describe()
-hist_1 = df_ns['n_countries_visited'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-df_ns['n_countries_visited'] = pd.qcut(df_ns['n_countries_visited'], q=[0, .25, .5, .75, 1])
-# check number in each category
-df_ns.groupby(['n_countries_visited']).size().reset_index(name='count')
+############### education level ################
+a = df_ns.groupby(['education_level']).size().reset_index(name='count')
+a
+### combine some categories
+df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'Primary & Secondary',
+                                                             'secondary': 'Primary & Secondary',
+                                                             'masters': 'Masters & PhD',
+                                                             'phD': 'Masters & PhD'})
 
 ############### calculate k-anonimity ##################
 df_ns.describe()
 
-# df_ns.groupby(['gender', 'age', 'postcode', 'weight', 'height', 'avg_n_drinks_per_week', 'avg_n_cigret_per_week','n_countries_visited']).size().reset_index(name='count')
-a = df_ns.groupby(['age', 'postcode']).size().reset_index(name='count')
-a.loc[a['count']>0]
+# df_ns.groupby(['cc_status', 'UK_country', 'continent of birth', 'education level']).size().reset_index(name='count')
+# 2 * 3 * 6 * 4 = 144
+a = df_ns.groupby(['cc_status', 'UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
+b = a.loc[a['count']==1]
+a.shape
+b.shape
+# remove the 20 individuals?
+# sample with probability?
 
 # save CSVs
-# sensitive file
-# file for researchers
+# sensitive file: same as the sensitive_info file for researchers
+# file for government collaborators
+
 # df.to_csv(PATH)
 

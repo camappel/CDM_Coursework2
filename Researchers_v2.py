@@ -91,13 +91,34 @@ def country_to_continent(country_name):
         country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
         return country_continent_name
 # convert
-df_ns['place_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
-# drop country of birth column
-df_ns = df_ns.drop(columns = 'country_of_birth')
+df_ns['continent_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
 # check numbers in each continent
-a = df_ns.groupby(['place_of_birth']).size().reset_index(name='count')
-#a.loc[a['count']<10]
-#a.loc[a['place_of_birth']=='South America']
+n = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
+print(n)
+
+############ country_names --> code ##############
+# unique country_names
+unique_country_names = df_ns['country_of_birth'].unique()
+n = unique_country_names.size
+# code country of birth using random numbers
+country_codes = np.random.randint(100, 999, size = n)
+country_dict = dict(zip(unique_country_names, country_codes.tolist()))
+# replace country names with codes
+df_ns['country_of_birth'] = df_ns['country_of_birth'].replace(country_dict)
+# add coding info into dictionary
+imp_info['country_of_birth'] = country_dict
+
+################ continent_names --> code ##############
+# unique contient_names
+unique_continent_names = df_ns['continent_of_birth'].unique()
+n = unique_continent_names.size
+# code place of birth using random numbers
+continent_codes = np.random.randint(10, 99, size = n)
+continent_dict = dict(zip(unique_continent_names, continent_codes.tolist()))
+# replace continent names with codes
+df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace(continent_dict)
+# add coding info into dictionary
+imp_info['continent_of_birth'] = country_dict
 
 ################ postcode --> banding --> replace with fake postcode ################
 # define function for finding the index of the first digit in a string
@@ -174,19 +195,20 @@ df_ns['n_countries_visited'] = tmp[0]
 imp_info['n_countries_visited'] = tmp[1]
 
 ############### calculate k-anonimity ##################
-# df_ns.groupby(['gender','cc_status', 'place_of_birth']).size().reset_index(name='count')
-a = df_ns.groupby(['cc_status', 'place_of_birth']).size().reset_index(name='count')
-a.loc[a['count']==1]
-# 1 with cc_status == 1 in South America & 1 with cc_status == 1 in Antarctica --> further generalisation or pseudonymisation or remove
+# consider cc_staus only
+groups = df_ns.groupby(['cc_status']).size().reset_index(name='count')
+k = groups['count'].min()
+print(k) # 47-anonymity
+# consider cc_status and gender
+groups = df_ns.groupby(['cc_status', 'gender']).size().reset_index(name='count')
+k = groups['count'].min()
+print(k) # 20-anonymity
 
 ############# save CSVs ############
-# sensitive file
-#df_s.to_csv('Data')
+# sensitive PII file
+df_s.to_csv('Data/sensitive_info.csv')
 # file for researchers
-#df_ns.to_csv('Data')
+df_ns.to_csv('Data/researchers_v2.csv')
 # dictionary
-# imp_info
-#with open('result.json', 'w') as fp:
-#    json.dump(imp_info, fp)
-
-df_ns.to_csv('Data/researchersv2.csv')
+with open('secretCode.json', 'w') as fp:
+    json.dump(imp_info, fp)
