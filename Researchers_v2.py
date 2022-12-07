@@ -195,14 +195,10 @@ df_ns['n_countries_visited'] = tmp[0]
 imp_info['n_countries_visited'] = tmp[1]
 
 ############### calculate k-anonimity ##################
-# consider cc_staus only
-groups = df_ns.groupby(['cc_status']).size().reset_index(name='count')
+# consider gender
+groups = df_ns.groupby(['gender']).size().reset_index(name='count')
 k = groups['count'].min()
-print(k) # 47-anonymity
-# consider cc_status and gender
-groups = df_ns.groupby(['cc_status', 'gender']).size().reset_index(name='count')
-k = groups['count'].min()
-print(k) # 20-anonymity
+print(k) # 499-anonymity
 
 ############# save CSVs ############
 # sensitive PII file
