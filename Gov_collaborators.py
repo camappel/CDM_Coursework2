@@ -132,6 +132,9 @@ df_unique[['sid', 'count']]
 # remove 
 df_ns = df_ns[df_ns['sid'].isin(df_unique['sid']) == False]
 
+########## remove sid column ##############
+df_ns = df_ns.drop(columns = 'sid')
+
 # 2-anonymity
 a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 a['count'].min()
