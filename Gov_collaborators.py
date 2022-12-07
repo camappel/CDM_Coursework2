@@ -18,7 +18,7 @@ df.shape
 random.seed(0)
 
 ############### only keep geographic and education characteristics ###############
-df_ns = df[['country_of_birth', 'postcode', 'cc_status', 'education_level']]
+df_ns = df[['country_of_birth', 'postcode', 'cc_status', 'education_level', 'n_countries_visited']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -89,10 +89,8 @@ df_ns = df_ns.drop(columns = 'postcode')
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
 a.loc[a['count'] < 30]
 # combine Channel Islands. Isle of Man, Northern Ireland and Wales
-df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Other countries',
-                                                   'Isle of Man': 'Other countries',
-                                                   'Northern Ireland': 'Other countries',
-                                                   'Wales': 'Other countries'})
+df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Overseas territories',
+                                                   'Isle of Man': 'Overseas territories'})
 # check number of individuals in each category
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
 a
@@ -101,10 +99,10 @@ a
 a = df_ns.groupby(['education_level']).size().reset_index(name='count')
 a
 ### combine some categories
-df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'Primary & Secondary',
-                                                             'secondary': 'Primary & Secondary',
-                                                             'masters': 'Masters & PhD',
-                                                             'phD': 'Masters & PhD'})
+df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'School',
+                                                             'secondary': 'School',
+                                                             'masters': 'Postgraduate',
+                                                             'phD': 'Postgraduate'})
 
 ############### calculate k-anonimity ##################
 df_ns.describe()
