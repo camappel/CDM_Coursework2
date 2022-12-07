@@ -1,0 +1,974 @@
+sid,cc_status,education_level,n_countries_visited,continent_of_birth,UK_country
+00029189,0,Postgraduate,"(40, 50]",Asia,England
+00089519,0,School,"(40, 50]",Oceania,England
+00096588,0,Undergraduate,"(0, 10]",South America,England
+00047162,0,School,"(30, 40]",Africa,England
+00071494,0,School,"(30, 40]",South America,England
+00060355,0,Other,"(0, 10]",South America,England
+00030224,0,School,"(30, 40]",Oceania,England
+00085117,0,Other,"(20, 30]",North America,England
+00041561,0,School,"(10, 20]",Oceania,England
+00060941,0,Undergraduate,"(40, 50]",North America,England
+00010729,0,School,"(40, 50]",Oceania,Scotland
+00077941,0,Undergraduate,"(20, 30]",South America,England
+00027182,1,School,"(40, 50]",North America,England
+00019088,0,School,"(30, 40]",Africa,England
+00048024,0,School,"(20, 30]",Asia,England
+00018544,0,School,"(40, 50]",Asia,England
+00036170,0,Postgraduate,"(0, 10]",Oceania,England
+00032497,0,Undergraduate,"(20, 30]",Asia,England
+00033286,0,School,"(20, 30]",North America,England
+00080116,0,Undergraduate,"(0, 10]",Oceania,England
+00050964,0,Undergraduate,"(30, 40]",Asia,England
+00079152,0,School,"(10, 20]",Africa,England
+00092803,0,School,"(30, 40]",Asia,England
+00043169,0,School,"(30, 40]",Asia,England
+00045976,0,Postgraduate,"(10, 20]",North America,England
+00030208,0,School,"(0, 10]",Oceania,Scotland
+00026991,0,School,"(20, 30]",Asia,England
+00043706,0,School,"(40, 50]",Europe,England
+00092019,0,School,"(10, 20]",North America,England
+00097849,0,School,"(20, 30]",Africa,Scotland
+00060732,0,Postgraduate,"(30, 40]",Europe,England
+00015428,0,Other,"(20, 30]",Africa,England
+00082022,0,School,"(0, 10]",Europe,England
+00072556,1,School,"(10, 20]",North America,England
+00068858,0,School,"(30, 40]",Europe,Scotland
+00077147,0,School,"(10, 20]",Africa,England
+00049416,0,Postgraduate,"(0, 10]",North America,England
+00032167,0,School,"(10, 20]",Africa,England
+00013426,0,Other,"(30, 40]",South America,England
+00077152,0,School,"(40, 50]",Africa,England
+00037945,0,School,"(40, 50]",Asia,Scotland
+00079197,0,Postgraduate,"(40, 50]",South America,England
+00037929,0,Other,"(40, 50]",Europe,England
+00055425,0,School,"(40, 50]",Europe,Overseas territories
+00067932,0,Other,"(40, 50]",Europe,England
+00073723,0,School,"(10, 20]",Europe,England
+00071621,0,Other,"(20, 30]",Oceania,England
+00085463,0,School,"(30, 40]",Asia,England
+00020983,0,School,"(10, 20]",Africa,Scotland
+00098466,0,Other,"(40, 50]",North America,Scotland
+00018064,1,School,"(30, 40]",Asia,England
+00045660,0,School,"(10, 20]",North America,England
+00074153,0,Postgraduate,"(30, 40]",Asia,England
+00084467,1,School,"(30, 40]",North America,England
+00088406,0,School,"(20, 30]",Africa,England
+00011032,0,School,"(30, 40]",Europe,England
+00064678,0,School,"(30, 40]",Europe,England
+00096897,0,School,"(10, 20]",Oceania,England
+00016396,0,School,"(0, 10]",Europe,England
+00023174,0,Undergraduate,"(40, 50]",Oceania,England
+00033789,0,Postgraduate,"(20, 30]",North America,England
+00032198,0,School,"(20, 30]",Europe,England
+00081824,0,Other,"(20, 30]",North America,England
+00086534,0,Other,"(10, 20]",Africa,England
+00030978,0,School,"(30, 40]",Asia,England
+00077986,0,Undergraduate,"(20, 30]",Oceania,Scotland
+00075773,1,School,"(30, 40]",Asia,England
+00037557,0,School,"(10, 20]",Asia,England
+00063710,0,School,"(0, 10]",North America,England
+00061189,0,School,"(20, 30]",North America,England
+00083507,0,Undergraduate,"(30, 40]",Oceania,England
+00076882,0,School,"(20, 30]",Europe,England
+00047186,0,School,"(20, 30]",Africa,England
+00097710,0,School,"(40, 50]",Asia,England
+00076947,0,School,"(30, 40]",Asia,England
+00091645,0,School,"(20, 30]",Africa,England
+00038203,0,School,"(10, 20]",Asia,England
+00028404,0,Postgraduate,"(0, 10]",Africa,England
+00023729,0,School,"(30, 40]",Europe,Scotland
+00072310,0,Other,"(30, 40]",Europe,Scotland
+00053145,0,School,"(20, 30]",South America,Wales
+00019131,0,School,"(40, 50]",Europe,England
+00032848,1,School,"(40, 50]",Asia,England
+00091924,0,School,"(40, 50]",North America,Scotland
+00091845,1,School,"(0, 10]",Africa,England
+00058663,0,School,"(40, 50]",Africa,England
+00070040,0,Undergraduate,"(10, 20]",Oceania,Scotland
+00052179,0,School,"(0, 10]",Europe,Overseas territories
+00084544,0,Postgraduate,"(30, 40]",Africa,England
+00058459,0,School,"(30, 40]",Asia,Scotland
+00068379,0,School,"(40, 50]",Africa,Scotland
+00040644,0,School,"(40, 50]",North America,England
+00075289,0,School,"(40, 50]",Asia,England
+00077491,0,Undergraduate,"(40, 50]",Oceania,England
+00084921,0,School,"(10, 20]",Asia,England
+00091990,1,School,"(20, 30]",Europe,Scotland
+00097109,0,Undergraduate,"(10, 20]",Europe,England
+00055599,0,Postgraduate,"(20, 30]",Africa,England
+00018756,0,School,"(20, 30]",Africa,Scotland
+00010714,0,School,"(0, 10]",Asia,England
+00023190,0,School,"(10, 20]",South America,England
+00019642,0,Postgraduate,"(30, 40]",Africa,England
+00050255,0,School,"(40, 50]",North America,Scotland
+00091935,0,Undergraduate,"(20, 30]",Europe,England
+00040378,0,School,"(10, 20]",North America,England
+00046511,0,Undergraduate,"(0, 10]",Africa,Scotland
+00035725,0,Undergraduate,"(0, 10]",Africa,England
+00063231,0,Undergraduate,"(40, 50]",Europe,England
+00047347,0,School,"(30, 40]",Europe,England
+00018676,0,Other,"(10, 20]",Africa,England
+00096911,0,School,"(0, 10]",North America,England
+00033791,1,School,"(20, 30]",Europe,England
+00092639,0,Postgraduate,"(40, 50]",Europe,England
+00090692,0,Other,"(30, 40]",North America,England
+00028373,0,Undergraduate,"(30, 40]",South America,England
+00090884,0,School,"(20, 30]",North America,England
+00031335,0,Undergraduate,"(20, 30]",Europe,England
+00064283,0,School,"(0, 10]",Asia,England
+00066622,0,Undergraduate,"(20, 30]",South America,England
+00011832,0,Undergraduate,"(40, 50]",Asia,England
+00078993,0,School,"(40, 50]",Asia,England
+00068064,0,Postgraduate,"(20, 30]",Africa,England
+00094108,0,School,"(10, 20]",Europe,England
+00024237,0,School,"(30, 40]",Asia,England
+00092669,0,School,"(10, 20]",Europe,England
+00037964,0,School,"(30, 40]",South America,England
+00094568,0,Undergraduate,"(30, 40]",Oceania,England
+00024744,0,Postgraduate,"(40, 50]",Europe,England
+00040485,0,School,"(40, 50]",Asia,England
+00068721,0,Undergraduate,"(30, 40]",Africa,England
+00023365,0,Undergraduate,"(30, 40]",Oceania,England
+00031593,0,Undergraduate,"(10, 20]",Africa,Scotland
+00098557,0,School,"(30, 40]",Europe,Scotland
+00051351,0,Other,"(0, 10]",Asia,England
+00070045,0,School,"(0, 10]",Asia,England
+00056673,0,School,"(0, 10]",Africa,England
+00088888,0,School,"(30, 40]",North America,England
+00076712,0,School,"(40, 50]",South America,England
+00095639,0,Postgraduate,"(10, 20]",Europe,Scotland
+00029820,0,Other,"(0, 10]",Asia,England
+00091778,0,School,"(40, 50]",Europe,England
+00096172,0,Postgraduate,"(30, 40]",Oceania,England
+00044315,0,School,"(0, 10]",Asia,England
+00031005,0,School,"(0, 10]",Africa,England
+00053527,0,School,"(20, 30]",Oceania,England
+00031153,0,School,"(10, 20]",Africa,England
+00038127,0,School,"(30, 40]",North America,England
+00062126,0,School,"(30, 40]",Asia,England
+00058647,0,Other,"(10, 20]",Europe,England
+00080725,0,Postgraduate,"(0, 10]",Africa,England
+00096514,0,School,"(20, 30]",Africa,England
+00055756,0,Other,"(40, 50]",Europe,Scotland
+00071802,0,School,"(20, 30]",Asia,England
+00060439,0,Undergraduate,"(30, 40]",Africa,Scotland
+00085065,0,School,"(0, 10]",Asia,England
+00053718,0,Other,"(20, 30]",Africa,Scotland
+00099674,0,Postgraduate,"(30, 40]",Asia,England
+00049693,0,Undergraduate,"(30, 40]",Europe,Wales
+00073164,0,School,"(20, 30]",Oceania,England
+00088750,0,Undergraduate,"(10, 20]",Africa,England
+00068409,0,School,"(20, 30]",Europe,England
+00090248,0,Other,"(30, 40]",Africa,Wales
+00033204,0,School,"(40, 50]",Africa,England
+00066667,0,Postgraduate,"(10, 20]",Europe,Scotland
+00084900,0,School,"(10, 20]",Oceania,England
+00038611,0,Other,"(30, 40]",Africa,England
+00043482,0,School,"(40, 50]",North America,England
+00037927,1,Other,"(30, 40]",Europe,England
+00044552,0,Postgraduate,"(20, 30]",Oceania,England
+00063143,0,Postgraduate,"(0, 10]",Asia,Scotland
+00023349,0,School,"(10, 20]",Europe,England
+00062069,0,School,"(0, 10]",Asia,England
+00086093,0,Undergraduate,"(40, 50]",Europe,Scotland
+00061497,0,Postgraduate,"(10, 20]",Africa,England
+00062284,0,Other,"(20, 30]",Asia,England
+00097693,0,Postgraduate,"(30, 40]",North America,England
+00063017,0,School,"(0, 10]",South America,England
+00025545,0,Undergraduate,"(0, 10]",South America,Scotland
+00014569,0,Other,"(30, 40]",Asia,England
+00073463,0,Undergraduate,"(20, 30]",Oceania,England
+00059473,0,School,"(20, 30]",Africa,England
+00059003,0,School,"(10, 20]",Europe,England
+00034808,0,Postgraduate,"(40, 50]",Oceania,England
+00032005,0,Other,"(0, 10]",North America,England
+00010488,0,Undergraduate,"(40, 50]",Asia,England
+00082382,0,School,"(40, 50]",North America,Scotland
+00037231,0,Postgraduate,"(10, 20]",Africa,England
+00076144,0,School,"(0, 10]",Asia,England
+00087727,0,School,"(20, 30]",Africa,England
+00041766,0,Postgraduate,"(40, 50]",Oceania,England
+00018675,0,School,"(0, 10]",Asia,England
+00022349,0,School,"(30, 40]",South America,England
+00025546,1,School,"(20, 30]",Africa,England
+00024587,0,Postgraduate,"(20, 30]",Europe,England
+00042946,0,School,"(40, 50]",North America,England
+00098857,0,Postgraduate,"(10, 20]",Asia,England
+00017243,0,School,"(20, 30]",Antarctica,England
+00035917,0,School,"(0, 10]",South America,England
+00077716,1,Other,"(40, 50]",Asia,England
+00020128,0,Postgraduate,"(10, 20]",Oceania,England
+00093190,0,School,"(30, 40]",South America,England
+00082138,0,School,"(20, 30]",Africa,England
+00051459,0,School,"(20, 30]",South America,England
+00075845,0,Postgraduate,"(30, 40]",Europe,England
+00062726,0,School,"(40, 50]",Europe,England
+00028828,0,School,"(30, 40]",North America,Scotland
+00085865,0,Postgraduate,"(0, 10]",North America,England
+00029098,0,Other,"(30, 40]",Oceania,England
+00066165,0,School,"(20, 30]",Africa,England
+00051205,0,Other,"(20, 30]",Europe,England
+00024557,0,Postgraduate,"(0, 10]",Asia,England
+00050667,0,School,"(30, 40]",North America,England
+00059063,0,Undergraduate,"(20, 30]",Europe,England
+00038448,0,School,"(40, 50]",Europe,England
+00085640,0,School,"(40, 50]",Europe,England
+00027391,0,Undergraduate,"(0, 10]",Oceania,England
+00054288,0,School,"(30, 40]",Asia,England
+00052338,0,Undergraduate,"(20, 30]",North America,England
+00048242,0,School,"(20, 30]",North America,England
+00098986,0,School,"(10, 20]",Africa,Scotland
+00094313,0,Undergraduate,"(40, 50]",Asia,England
+00060752,0,School,"(0, 10]",Asia,England
+00082433,0,School,"(20, 30]",Africa,England
+00080342,0,Other,"(0, 10]",Africa,England
+00067601,0,School,"(20, 30]",North America,England
+00095498,0,Postgraduate,"(30, 40]",Asia,England
+00088486,0,School,"(30, 40]",North America,England
+00055398,0,Other,"(10, 20]",South America,England
+00014899,0,School,"(20, 30]",Asia,England
+00093847,0,Other,"(30, 40]",Europe,England
+00082214,1,School,"(30, 40]",Asia,England
+00053673,0,School,"(20, 30]",Asia,England
+00082773,0,Postgraduate,"(30, 40]",Europe,England
+00044750,0,Postgraduate,"(20, 30]",Africa,Scotland
+00035070,0,Undergraduate,"(30, 40]",Oceania,England
+00016906,0,School,"(10, 20]",Africa,Scotland
+00062723,0,School,"(40, 50]",Oceania,England
+00096248,0,Undergraduate,"(10, 20]",Africa,England
+00044559,0,Undergraduate,"(20, 30]",Europe,England
+00036034,0,Undergraduate,"(20, 30]",Europe,England
+00063420,0,Undergraduate,"(30, 40]",Europe,England
+00073940,0,Other,"(20, 30]",Europe,England
+00079443,0,School,"(0, 10]",Africa,England
+00079443,1,Undergraduate,"(10, 20]",Asia,England
+00024348,0,School,"(40, 50]",Oceania,England
+00093909,0,School,"(30, 40]",North America,England
+00016332,0,School,"(40, 50]",Europe,England
+00086992,0,Undergraduate,"(20, 30]",Africa,England
+00090944,0,School,"(30, 40]",Asia,Scotland
+00018882,0,Undergraduate,"(20, 30]",North America,England
+00053870,0,Undergraduate,"(20, 30]",Asia,England
+00051987,0,Postgraduate,"(20, 30]",Africa,Scotland
+00036581,0,School,"(20, 30]",Oceania,England
+00086668,0,School,"(40, 50]",Africa,England
+00051868,0,School,"(20, 30]",Asia,England
+00073859,0,Other,"(40, 50]",Oceania,England
+00068778,0,Undergraduate,"(40, 50]",Oceania,England
+00027137,0,School,"(10, 20]",Asia,England
+00066194,0,School,"(0, 10]",Asia,Scotland
+00080003,0,Postgraduate,"(10, 20]",North America,England
+00080440,0,Postgraduate,"(0, 10]",North America,England
+00049848,0,Undergraduate,"(30, 40]",Europe,England
+00033548,0,School,"(10, 20]",Africa,England
+00048161,0,School,"(40, 50]",Africa,England
+00014899,0,School,"(0, 10]",Asia,Scotland
+00068505,0,Undergraduate,"(20, 30]",Africa,England
+00063254,0,School,"(40, 50]",Africa,England
+00022892,0,Postgraduate,"(30, 40]",Africa,England
+00075154,0,School,"(0, 10]",South America,England
+00034597,0,School,"(30, 40]",Africa,England
+00071598,0,School,"(30, 40]",Europe,England
+00022718,0,Postgraduate,"(10, 20]",North America,England
+00085826,0,Postgraduate,"(30, 40]",Africa,England
+00046673,0,School,"(10, 20]",North America,England
+00061651,0,School,"(20, 30]",Asia,England
+00075119,0,Postgraduate,"(20, 30]",North America,England
+00044363,0,Undergraduate,"(40, 50]",Europe,England
+00034517,0,School,"(30, 40]",Europe,England
+00066142,0,School,"(20, 30]",Asia,England
+00083154,0,Other,"(0, 10]",Oceania,England
+00017586,0,Postgraduate,"(30, 40]",Asia,England
+00096872,0,School,"(20, 30]",Oceania,England
+00038656,0,Undergraduate,"(0, 10]",Europe,Scotland
+00071129,0,School,"(20, 30]",Africa,England
+00094864,0,School,"(40, 50]",Asia,England
+00027089,0,Postgraduate,"(20, 30]",South America,England
+00040229,0,Postgraduate,"(20, 30]",Asia,England
+00074083,0,Undergraduate,"(10, 20]",Africa,Scotland
+00067536,0,School,"(40, 50]",South America,Scotland
+00089993,0,School,"(30, 40]",North America,Scotland
+00023181,0,Postgraduate,"(20, 30]",Asia,England
+00034411,0,Undergraduate,"(40, 50]",Africa,Scotland
+00023251,0,School,"(20, 30]",Oceania,Scotland
+00058281,0,Postgraduate,"(0, 10]",Europe,England
+00078359,0,Undergraduate,"(30, 40]",South America,Scotland
+00073547,0,Undergraduate,"(30, 40]",Africa,England
+00073984,0,School,"(20, 30]",Europe,England
+00089845,0,Other,"(20, 30]",Europe,England
+00030705,0,Undergraduate,"(10, 20]",Europe,England
+00061880,0,School,"(20, 30]",North America,England
+00061536,0,Undergraduate,"(20, 30]",Africa,England
+00044148,0,Postgraduate,"(0, 10]",Europe,England
+00054843,0,School,"(0, 10]",Europe,England
+00031115,0,Postgraduate,"(0, 10]",Asia,England
+00079634,0,Undergraduate,"(40, 50]",Asia,England
+00030734,0,School,"(40, 50]",Europe,England
+00055460,0,School,"(0, 10]",North America,England
+00039583,0,Postgraduate,"(10, 20]",Oceania,England
+00064761,0,School,"(0, 10]",Europe,England
+00088721,1,Undergraduate,"(40, 50]",Oceania,England
+00053372,0,Other,"(10, 20]",Europe,Scotland
+00095703,0,School,"(30, 40]",Africa,England
+00048181,0,School,"(10, 20]",Oceania,England
+00043566,0,Undergraduate,"(20, 30]",North America,England
+00094568,0,Other,"(30, 40]",Europe,England
+00067743,0,School,"(10, 20]",South America,England
+00086143,0,School,"(40, 50]",Africa,England
+00011344,0,School,"(0, 10]",Europe,England
+00067541,0,School,"(20, 30]",South America,England
+00012755,0,School,"(10, 20]",Europe,England
+00052758,0,Postgraduate,"(20, 30]",Asia,England
+00060212,0,Other,"(0, 10]",Europe,Scotland
+00037222,0,School,"(10, 20]",Europe,England
+00039625,0,School,"(40, 50]",Europe,England
+00049341,0,Postgraduate,"(20, 30]",Oceania,England
+00011570,0,School,"(0, 10]",Europe,England
+00022364,0,Other,"(20, 30]",Asia,England
+00063923,0,Postgraduate,"(0, 10]",Oceania,England
+00063285,0,School,"(10, 20]",Europe,England
+00011812,0,Undergraduate,"(30, 40]",North America,Scotland
+00095251,0,Undergraduate,"(0, 10]",North America,England
+00026974,0,Undergraduate,"(10, 20]",Oceania,England
+00089411,0,School,"(10, 20]",Europe,England
+00048635,0,School,"(10, 20]",Africa,England
+00018801,0,School,"(30, 40]",Africa,England
+00022242,0,School,"(10, 20]",Europe,England
+00073333,0,School,"(0, 10]",North America,Wales
+00037763,0,Other,"(30, 40]",Europe,England
+00058969,0,School,"(40, 50]",Asia,Scotland
+00091277,0,Postgraduate,"(0, 10]",Africa,England
+00047739,0,School,"(10, 20]",Asia,England
+00025613,0,School,"(0, 10]",Asia,England
+00078061,0,Postgraduate,"(30, 40]",Oceania,England
+00076953,0,Undergraduate,"(30, 40]",Europe,England
+00046211,0,Postgraduate,"(40, 50]",North America,England
+00095877,0,School,"(20, 30]",South America,England
+00089976,0,Undergraduate,"(20, 30]",North America,England
+00059849,0,Other,"(30, 40]",Europe,England
+00043269,1,Postgraduate,"(30, 40]",North America,England
+00045106,0,Undergraduate,"(0, 10]",Africa,Scotland
+00098994,0,School,"(20, 30]",Europe,England
+00076731,0,School,"(10, 20]",Asia,England
+00022430,0,Undergraduate,"(40, 50]",Europe,England
+00052429,0,Other,"(40, 50]",Europe,England
+00043870,0,School,"(10, 20]",Asia,Scotland
+00088360,0,Other,"(0, 10]",Oceania,England
+00038403,0,Undergraduate,"(30, 40]",Africa,England
+00021030,0,School,"(10, 20]",North America,England
+00018642,0,School,"(40, 50]",South America,England
+00035557,0,School,"(20, 30]",Africa,England
+00056001,0,Undergraduate,"(0, 10]",Asia,England
+00034744,0,School,"(20, 30]",Africa,England
+00032808,0,Undergraduate,"(20, 30]",Africa,England
+00030588,0,Postgraduate,"(10, 20]",Africa,England
+00093974,1,Other,"(10, 20]",Europe,England
+00086731,0,School,"(30, 40]",North America,England
+00032394,0,Undergraduate,"(10, 20]",Oceania,England
+00052837,1,School,"(20, 30]",Africa,England
+00055293,0,School,"(0, 10]",Europe,Scotland
+00099736,0,School,"(40, 50]",Africa,England
+00018970,0,School,"(40, 50]",North America,England
+00014344,0,School,"(10, 20]",Africa,Scotland
+00067129,0,Postgraduate,"(10, 20]",Oceania,England
+00042309,0,Postgraduate,"(20, 30]",North America,England
+00031344,0,Postgraduate,"(10, 20]",Asia,England
+00037052,0,Other,"(30, 40]",Europe,Scotland
+00079183,0,Other,"(10, 20]",North America,Scotland
+00010057,0,School,"(40, 50]",Asia,England
+00085569,0,Undergraduate,"(40, 50]",Asia,Scotland
+00034533,0,School,"(30, 40]",North America,England
+00076778,1,Postgraduate,"(20, 30]",Africa,England
+00012016,0,Postgraduate,"(20, 30]",Africa,Scotland
+00025696,0,School,"(20, 30]",Africa,Scotland
+00020929,0,School,"(30, 40]",Africa,England
+00027480,0,School,"(0, 10]",Europe,England
+00055864,0,School,"(10, 20]",Europe,Scotland
+00051732,0,Postgraduate,"(30, 40]",Africa,England
+00084506,0,School,"(30, 40]",Oceania,England
+00024187,0,Postgraduate,"(0, 10]",Africa,England
+00037335,0,Undergraduate,"(30, 40]",Europe,Scotland
+00020419,0,Other,"(20, 30]",South America,England
+00058922,1,School,"(30, 40]",Europe,England
+00095287,0,School,"(0, 10]",Africa,Scotland
+00062410,0,School,"(0, 10]",Oceania,England
+00083235,0,Undergraduate,"(10, 20]",Asia,England
+00046331,0,Postgraduate,"(40, 50]",North America,England
+00043603,0,School,"(10, 20]",South America,Scotland
+00082577,0,Other,"(10, 20]",Asia,England
+00031099,0,Postgraduate,"(40, 50]",Europe,England
+00077093,0,Other,"(0, 10]",Oceania,England
+00031620,0,Other,"(40, 50]",Asia,England
+00051771,0,Undergraduate,"(20, 30]",Asia,Scotland
+00063075,0,Undergraduate,"(30, 40]",Africa,England
+00029655,0,School,"(10, 20]",South America,England
+00027455,0,School,"(0, 10]",North America,England
+00062615,0,School,"(30, 40]",Oceania,England
+00088649,0,School,"(40, 50]",Asia,England
+00011003,0,School,"(40, 50]",South America,England
+00079935,0,School,"(40, 50]",Africa,England
+00073393,1,School,"(30, 40]",Africa,England
+00024316,0,School,"(10, 20]",Asia,England
+00042853,0,School,"(30, 40]",Europe,Scotland
+00024347,0,School,"(40, 50]",North America,Scotland
+00064831,0,School,"(0, 10]",Asia,Scotland
+00096237,0,School,"(10, 20]",Asia,England
+00072430,0,Undergraduate,"(10, 20]",Europe,England
+00033176,0,School,"(0, 10]",Asia,England
+00011028,0,School,"(40, 50]",North America,England
+00027352,0,School,"(20, 30]",Europe,England
+00060010,0,Other,"(20, 30]",Africa,England
+00038830,0,Postgraduate,"(0, 10]",Oceania,England
+00090440,0,School,"(30, 40]",Africa,England
+00057538,0,Undergraduate,"(20, 30]",Africa,England
+00066172,0,School,"(10, 20]",Africa,England
+00098473,0,School,"(10, 20]",Asia,England
+00056050,0,School,"(20, 30]",Africa,Scotland
+00093173,0,School,"(0, 10]",Oceania,England
+00091361,0,School,"(30, 40]",Europe,England
+00042676,0,Other,"(40, 50]",Asia,England
+00048061,0,Undergraduate,"(20, 30]",Asia,England
+00087011,0,School,"(0, 10]",North America,England
+00091848,0,School,"(0, 10]",Africa,England
+00013292,0,Undergraduate,"(20, 30]",North America,England
+00082617,0,School,"(0, 10]",North America,England
+00013643,0,School,"(10, 20]",Africa,England
+00058351,0,School,"(0, 10]",Europe,England
+00070299,0,Other,"(40, 50]",Asia,England
+00064314,0,Other,"(30, 40]",Europe,England
+00018157,0,Undergraduate,"(10, 20]",North America,England
+00020275,0,School,"(30, 40]",Europe,England
+00034197,0,School,"(10, 20]",Africa,England
+00082414,0,School,"(30, 40]",Europe,England
+00062869,0,School,"(40, 50]",Antarctica,England
+00075595,0,School,"(20, 30]",Africa,England
+00042974,1,Undergraduate,"(10, 20]",Oceania,England
+00062888,0,Postgraduate,"(0, 10]",Asia,England
+00087436,0,School,"(0, 10]",Asia,England
+00038532,0,Undergraduate,"(20, 30]",Europe,England
+00054421,0,Undergraduate,"(10, 20]",Africa,England
+00067084,0,Postgraduate,"(10, 20]",Africa,England
+00076922,0,Postgraduate,"(30, 40]",North America,England
+00065596,0,Undergraduate,"(10, 20]",Africa,England
+00033405,0,School,"(30, 40]",Europe,England
+00078415,0,Undergraduate,"(30, 40]",Europe,England
+00040326,0,School,"(20, 30]",Europe,England
+00056079,0,School,"(20, 30]",Oceania,England
+00045065,0,School,"(10, 20]",Africa,Scotland
+00032476,0,Postgraduate,"(40, 50]",Europe,England
+00071471,0,School,"(30, 40]",South America,England
+00077006,0,Postgraduate,"(10, 20]",Asia,England
+00052702,0,School,"(0, 10]",North America,England
+00083715,1,Postgraduate,"(30, 40]",Oceania,England
+00047630,0,School,"(40, 50]",North America,England
+00079090,0,Other,"(40, 50]",Europe,England
+00058050,1,School,"(20, 30]",North America,England
+00019544,0,School,"(10, 20]",Asia,England
+00025308,0,School,"(40, 50]",Asia,England
+00065825,0,School,"(0, 10]",Europe,England
+00087538,0,School,"(0, 10]",Asia,England
+00054050,0,School,"(0, 10]",Oceania,England
+00037788,0,School,"(40, 50]",Africa,England
+00020702,0,School,"(40, 50]",Europe,England
+00082998,0,Postgraduate,"(40, 50]",Africa,England
+00091841,0,School,"(30, 40]",Africa,England
+00039175,0,School,"(30, 40]",North America,Scotland
+00068325,0,School,"(20, 30]",North America,Scotland
+00019009,0,Postgraduate,"(30, 40]",Oceania,England
+00033080,0,Undergraduate,"(10, 20]",North America,England
+00015032,0,School,"(0, 10]",South America,Wales
+00058592,0,Undergraduate,"(0, 10]",North America,England
+00042724,0,School,"(30, 40]",Asia,England
+00015461,0,School,"(0, 10]",Asia,England
+00045614,0,Postgraduate,"(20, 30]",Asia,England
+00022168,1,School,"(30, 40]",Africa,England
+00012547,0,Undergraduate,"(0, 10]",Europe,England
+00031969,0,School,"(30, 40]",Africa,England
+00021945,0,Postgraduate,"(10, 20]",Africa,England
+00023619,0,Postgraduate,"(0, 10]",Africa,England
+00046169,0,School,"(20, 30]",North America,England
+00075975,0,School,"(0, 10]",Africa,England
+00091620,0,School,"(40, 50]",Europe,England
+00028323,0,Undergraduate,"(30, 40]",Europe,England
+00096813,0,School,"(0, 10]",Europe,England
+00021777,0,School,"(40, 50]",Asia,England
+00057305,0,School,"(10, 20]",Oceania,England
+00059444,0,School,"(10, 20]",Oceania,England
+00062356,0,School,"(10, 20]",Europe,Scotland
+00054667,0,School,"(40, 50]",Africa,England
+00041876,0,Postgraduate,"(20, 30]",Europe,England
+00035601,0,School,"(40, 50]",Africa,England
+00039873,0,Other,"(40, 50]",Africa,Scotland
+00017812,0,School,"(0, 10]",Europe,Overseas territories
+00073083,0,Postgraduate,"(30, 40]",Africa,England
+00057853,0,Undergraduate,"(0, 10]",Europe,England
+00059399,0,School,"(0, 10]",Oceania,England
+00083287,0,School,"(30, 40]",Europe,Scotland
+00046826,0,School,"(0, 10]",Asia,England
+00020129,0,School,"(30, 40]",Europe,England
+00080715,0,Undergraduate,"(0, 10]",Asia,England
+00019072,0,Postgraduate,"(10, 20]",Africa,England
+00070167,0,School,"(40, 50]",Europe,Scotland
+00010025,0,School,"(40, 50]",Europe,England
+00021310,0,Undergraduate,"(40, 50]",South America,England
+00019516,0,School,"(30, 40]",Asia,England
+00020332,0,School,"(20, 30]",Asia,England
+00043993,0,School,"(0, 10]",Oceania,England
+00094706,0,Postgraduate,"(30, 40]",Africa,England
+00086524,0,Postgraduate,"(0, 10]",Europe,England
+00071099,0,School,"(10, 20]",South America,England
+00097869,0,School,"(0, 10]",Asia,Scotland
+00034615,0,School,"(40, 50]",Oceania,England
+00054328,0,Undergraduate,"(20, 30]",Africa,Scotland
+00090030,0,School,"(40, 50]",Africa,England
+00034546,0,School,"(20, 30]",Africa,Scotland
+00081294,1,School,"(40, 50]",Asia,Scotland
+00019073,0,Postgraduate,"(10, 20]",Europe,England
+00092933,0,School,"(20, 30]",Asia,Scotland
+00056342,0,School,"(30, 40]",Europe,England
+00077296,0,Other,"(40, 50]",South America,England
+00046980,0,Undergraduate,"(40, 50]",South America,England
+00012808,0,School,"(30, 40]",Africa,England
+00079942,0,School,"(20, 30]",North America,England
+00087986,0,School,"(40, 50]",Africa,Scotland
+00084956,0,School,"(0, 10]",Africa,England
+00097757,0,School,"(30, 40]",Europe,England
+00054499,0,Other,"(30, 40]",Asia,England
+00084571,0,School,"(30, 40]",North America,Wales
+00099197,0,School,"(20, 30]",North America,England
+00084389,0,School,"(40, 50]",Europe,England
+00064452,0,School,"(30, 40]",Europe,Scotland
+00049850,0,School,"(30, 40]",North America,England
+00036939,0,School,"(10, 20]",Europe,England
+00020137,0,Postgraduate,"(20, 30]",Africa,England
+00013803,0,Undergraduate,"(20, 30]",Europe,England
+00099249,0,Undergraduate,"(30, 40]",Asia,England
+00015518,0,School,"(20, 30]",Oceania,Scotland
+00043313,0,School,"(0, 10]",Asia,England
+00065040,0,Undergraduate,"(20, 30]",Europe,England
+00075172,0,School,"(0, 10]",Africa,England
+00073991,0,Postgraduate,"(20, 30]",Europe,England
+00054490,0,School,"(30, 40]",Europe,England
+00068760,0,School,"(0, 10]",Asia,England
+00084528,0,School,"(30, 40]",North America,England
+00053626,0,School,"(0, 10]",Asia,England
+00032138,0,Postgraduate,"(40, 50]",Asia,England
+00090546,0,School,"(40, 50]",Europe,England
+00023381,0,School,"(20, 30]",Africa,England
+00070201,0,Other,"(10, 20]",Asia,England
+00075871,0,School,"(0, 10]",Africa,England
+00056204,0,School,"(40, 50]",Africa,England
+00034784,0,Undergraduate,"(40, 50]",Africa,Scotland
+00078129,0,Postgraduate,"(10, 20]",Europe,England
+00088188,0,Undergraduate,"(10, 20]",Africa,England
+00031644,0,Postgraduate,"(0, 10]",North America,England
+00062047,0,School,"(40, 50]",North America,Scotland
+00048929,0,School,"(20, 30]",Europe,England
+00034167,0,Undergraduate,"(0, 10]",Oceania,England
+00091976,0,School,"(20, 30]",Africa,England
+00047398,0,Undergraduate,"(40, 50]",Europe,Scotland
+00062139,0,School,"(10, 20]",Asia,England
+00085736,1,Other,"(20, 30]",Africa,England
+00043267,0,School,"(40, 50]",Oceania,England
+00047323,0,School,"(30, 40]",North America,England
+00019501,0,School,"(30, 40]",South America,England
+00054064,0,School,"(10, 20]",Oceania,England
+00037768,0,School,"(30, 40]",Europe,England
+00058063,0,Undergraduate,"(40, 50]",South America,England
+00094168,0,Postgraduate,"(30, 40]",Africa,England
+00082858,0,School,"(30, 40]",Oceania,England
+00046665,0,Undergraduate,"(20, 30]",Africa,England
+00018061,0,School,"(20, 30]",Africa,England
+00021278,0,Undergraduate,"(40, 50]",Asia,England
+00018366,0,School,"(10, 20]",North America,England
+00042792,0,Undergraduate,"(40, 50]",Oceania,England
+00089603,0,School,"(20, 30]",Europe,England
+00057890,1,Undergraduate,"(30, 40]",Europe,England
+00094106,0,School,"(10, 20]",Africa,England
+00010776,0,Other,"(30, 40]",North America,England
+00088660,0,Undergraduate,"(0, 10]",Asia,England
+00010523,0,Postgraduate,"(10, 20]",North America,England
+00074940,0,School,"(40, 50]",Africa,England
+00097074,0,School,"(20, 30]",Asia,England
+00037242,0,School,"(0, 10]",Asia,England
+00098894,0,School,"(0, 10]",Africa,England
+00026071,0,Postgraduate,"(20, 30]",Europe,England
+00048852,0,School,"(30, 40]",Asia,England
+00026338,0,School,"(20, 30]",Oceania,England
+00032204,0,Other,"(40, 50]",North America,England
+00031541,0,Undergraduate,"(20, 30]",Oceania,Scotland
+00036452,0,Undergraduate,"(10, 20]",South America,Scotland
+00087395,0,Undergraduate,"(40, 50]",Asia,England
+00095004,0,Undergraduate,"(0, 10]",Africa,England
+00025297,0,Postgraduate,"(10, 20]",Europe,England
+00057847,1,Postgraduate,"(30, 40]",Africa,England
+00073689,0,Other,"(10, 20]",Oceania,England
+00023555,0,School,"(40, 50]",South America,England
+00088149,0,School,"(30, 40]",North America,England
+00071629,0,Postgraduate,"(10, 20]",Europe,England
+00079972,0,Postgraduate,"(40, 50]",Europe,Northern Ireland
+00086359,0,School,"(30, 40]",Africa,England
+00096437,0,School,"(40, 50]",Asia,England
+00071787,0,School,"(0, 10]",Africa,England
+00089327,0,Postgraduate,"(40, 50]",South America,England
+00087793,0,Other,"(20, 30]",Europe,England
+00039413,0,Other,"(20, 30]",Europe,England
+00059214,0,School,"(10, 20]",Europe,Scotland
+00078128,0,Other,"(30, 40]",North America,England
+00034219,0,School,"(30, 40]",Oceania,Scotland
+00089886,0,Undergraduate,"(0, 10]",Europe,England
+00082173,0,School,"(40, 50]",Asia,England
+00077547,0,Undergraduate,"(10, 20]",Europe,England
+00015569,0,Other,"(0, 10]",Asia,England
+00035530,0,School,"(40, 50]",Europe,England
+00046202,0,School,"(30, 40]",Oceania,England
+00034607,0,School,"(30, 40]",Asia,England
+00066385,0,Undergraduate,"(20, 30]",Asia,England
+00084727,0,Undergraduate,"(40, 50]",Asia,Wales
+00026175,0,Postgraduate,"(10, 20]",Oceania,England
+00038466,0,School,"(30, 40]",North America,Wales
+00035707,0,School,"(20, 30]",Africa,England
+00054922,0,School,"(10, 20]",Asia,England
+00069028,0,Undergraduate,"(10, 20]",Europe,England
+00014497,0,School,"(10, 20]",Asia,England
+00017719,0,School,"(10, 20]",Africa,Scotland
+00096094,0,Undergraduate,"(40, 50]",Europe,England
+00074894,0,Undergraduate,"(10, 20]",South America,England
+00081711,0,School,"(30, 40]",North America,Wales
+00028821,0,School,"(20, 30]",Africa,England
+00047081,0,Postgraduate,"(20, 30]",Africa,Scotland
+00010805,0,Other,"(0, 10]",North America,England
+00063001,0,Other,"(30, 40]",Europe,England
+00069920,1,Undergraduate,"(20, 30]",North America,England
+00020296,0,School,"(10, 20]",Africa,England
+00067078,0,Postgraduate,"(10, 20]",Europe,England
+00042960,0,Undergraduate,"(10, 20]",Europe,Scotland
+00090488,0,School,"(0, 10]",Africa,England
+00096049,0,School,"(0, 10]",Africa,England
+00046187,0,Undergraduate,"(30, 40]",Oceania,Wales
+00058001,0,School,"(30, 40]",Asia,England
+00049603,0,School,"(40, 50]",Europe,England
+00030078,0,School,"(20, 30]",Africa,England
+00014789,0,Undergraduate,"(20, 30]",North America,England
+00049903,0,Other,"(40, 50]",Europe,Scotland
+00089653,0,School,"(30, 40]",Asia,England
+00080298,0,Undergraduate,"(20, 30]",South America,England
+00023049,0,School,"(20, 30]",Europe,England
+00042980,0,School,"(20, 30]",Africa,Scotland
+00094663,0,School,"(10, 20]",Asia,England
+00099827,0,Postgraduate,"(40, 50]",Africa,England
+00046565,0,Other,"(10, 20]",Europe,England
+00062195,0,Undergraduate,"(10, 20]",Oceania,England
+00063786,0,School,"(0, 10]",Africa,England
+00054134,0,Postgraduate,"(40, 50]",Africa,England
+00040339,0,Undergraduate,"(40, 50]",Europe,England
+00080193,0,Other,"(40, 50]",Asia,England
+00056461,0,School,"(0, 10]",Europe,England
+00044547,0,School,"(10, 20]",Africa,England
+00013981,0,School,"(30, 40]",Africa,England
+00090663,0,Undergraduate,"(40, 50]",Oceania,England
+00097841,0,Postgraduate,"(0, 10]",South America,England
+00093377,0,Undergraduate,"(20, 30]",Oceania,England
+00078284,0,School,"(10, 20]",Oceania,England
+00080785,0,School,"(40, 50]",Europe,England
+00097751,0,School,"(0, 10]",Europe,England
+00058628,1,Undergraduate,"(20, 30]",Asia,Wales
+00043963,0,Postgraduate,"(20, 30]",Oceania,England
+00080911,0,Undergraduate,"(20, 30]",South America,England
+00042931,0,School,"(30, 40]",Asia,England
+00056226,0,Postgraduate,"(0, 10]",Asia,England
+00064893,0,Undergraduate,"(20, 30]",Africa,England
+00011460,1,School,"(30, 40]",Asia,Scotland
+00042270,0,Undergraduate,"(20, 30]",Oceania,England
+00052419,0,Postgraduate,"(40, 50]",Asia,England
+00046340,0,School,"(0, 10]",Africa,England
+00056885,0,School,"(30, 40]",Asia,England
+00040919,0,Postgraduate,"(0, 10]",North America,England
+00089953,0,School,"(10, 20]",Europe,England
+00025675,0,Undergraduate,"(30, 40]",Africa,England
+00086340,0,Undergraduate,"(40, 50]",Europe,England
+00018166,0,School,"(20, 30]",South America,England
+00096682,0,School,"(10, 20]",South America,England
+00096709,0,Postgraduate,"(20, 30]",Oceania,England
+00037308,0,School,"(0, 10]",Europe,England
+00073022,0,School,"(30, 40]",Europe,Scotland
+00036814,0,School,"(0, 10]",South America,England
+00077041,0,Postgraduate,"(10, 20]",Europe,England
+00076626,0,Undergraduate,"(30, 40]",North America,England
+00081841,0,School,"(0, 10]",Africa,England
+00033729,0,School,"(40, 50]",Africa,Scotland
+00099440,1,Other,"(30, 40]",Europe,England
+00095762,1,Other,"(40, 50]",North America,England
+00037308,0,Postgraduate,"(40, 50]",Africa,Scotland
+00018040,0,Postgraduate,"(0, 10]",North America,England
+00063477,0,Other,"(0, 10]",Oceania,England
+00079994,0,School,"(20, 30]",Africa,Scotland
+00061028,0,Undergraduate,"(30, 40]",Africa,England
+00033574,0,Postgraduate,"(20, 30]",North America,England
+00090374,0,School,"(40, 50]",Asia,England
+00098972,0,School,"(40, 50]",Africa,England
+00095112,0,Undergraduate,"(0, 10]",Africa,England
+00086486,0,Undergraduate,"(30, 40]",Africa,England
+00035979,0,School,"(30, 40]",Asia,Scotland
+00025879,0,School,"(30, 40]",Europe,England
+00063210,0,Other,"(30, 40]",Europe,Scotland
+00065147,0,School,"(30, 40]",Europe,England
+00053205,0,Undergraduate,"(40, 50]",Africa,England
+00093382,0,School,"(10, 20]",Europe,England
+00060181,0,School,"(30, 40]",Africa,England
+00042021,0,Postgraduate,"(10, 20]",Europe,England
+00010933,0,Undergraduate,"(0, 10]",Asia,England
+00073285,0,Postgraduate,"(0, 10]",Africa,England
+00053485,0,Undergraduate,"(30, 40]",South America,England
+00066085,0,Other,"(20, 30]",Europe,England
+00034080,0,Undergraduate,"(30, 40]",North America,England
+00043605,0,School,"(20, 30]",North America,England
+00022043,0,Undergraduate,"(0, 10]",Oceania,England
+00069937,0,School,"(0, 10]",Europe,England
+00021952,0,School,"(40, 50]",North America,England
+00052261,0,School,"(10, 20]",North America,England
+00045942,0,Postgraduate,"(10, 20]",South America,England
+00087475,0,School,"(10, 20]",South America,England
+00088049,0,School,"(40, 50]",Africa,England
+00020417,0,Postgraduate,"(20, 30]",Europe,England
+00055088,1,Undergraduate,"(20, 30]",Africa,Scotland
+00063938,0,Other,"(10, 20]",Asia,England
+00065060,0,Undergraduate,"(30, 40]",Africa,England
+00032050,0,School,"(10, 20]",Africa,England
+00056101,0,Undergraduate,"(10, 20]",Africa,England
+00043466,0,School,"(30, 40]",Africa,England
+00012926,0,Postgraduate,"(0, 10]",Europe,England
+00068852,0,School,"(20, 30]",Asia,England
+00035428,0,Postgraduate,"(20, 30]",Europe,England
+00030589,0,School,"(10, 20]",Oceania,England
+00066188,0,Postgraduate,"(0, 10]",Oceania,England
+00067767,0,Undergraduate,"(40, 50]",Asia,England
+00075026,0,School,"(40, 50]",Africa,England
+00011461,0,Postgraduate,"(30, 40]",Europe,England
+00039957,1,Postgraduate,"(20, 30]",Asia,Scotland
+00060803,0,Undergraduate,"(30, 40]",Europe,England
+00065580,0,Other,"(20, 30]",Asia,England
+00052558,0,School,"(40, 50]",Europe,England
+00082041,0,School,"(40, 50]",North America,England
+00037492,0,School,"(40, 50]",North America,England
+00024026,0,School,"(30, 40]",Asia,England
+00097072,0,School,"(20, 30]",Asia,England
+00016848,0,Postgraduate,"(0, 10]",Asia,England
+00058330,0,School,"(10, 20]",North America,Scotland
+00017528,0,Undergraduate,"(10, 20]",Africa,Scotland
+00058844,0,Undergraduate,"(20, 30]",Europe,Scotland
+00034842,0,Postgraduate,"(30, 40]",Africa,England
+00028096,0,School,"(20, 30]",Oceania,England
+00035770,0,School,"(20, 30]",Europe,England
+00022349,0,School,"(20, 30]",Africa,England
+00016655,0,School,"(10, 20]",South America,England
+00079269,0,Postgraduate,"(30, 40]",Asia,England
+00035223,0,Undergraduate,"(30, 40]",Asia,England
+00051454,0,School,"(10, 20]",Africa,England
+00028061,0,Undergraduate,"(0, 10]",Oceania,England
+00037926,0,School,"(30, 40]",Africa,England
+00022768,0,Undergraduate,"(20, 30]",Asia,Scotland
+00011454,1,School,"(20, 30]",Europe,Scotland
+00072871,0,Other,"(30, 40]",North America,England
+00054494,0,Other,"(20, 30]",Asia,England
+00074113,0,School,"(40, 50]",South America,England
+00033181,0,School,"(40, 50]",Africa,England
+00041445,0,School,"(10, 20]",Africa,England
+00069837,0,Undergraduate,"(40, 50]",Africa,England
+00079187,0,Other,"(10, 20]",Oceania,England
+00071290,0,Other,"(40, 50]",Asia,England
+00043122,1,School,"(20, 30]",Asia,England
+00051668,0,Undergraduate,"(40, 50]",South America,England
+00044117,0,Postgraduate,"(30, 40]",Oceania,England
+00014043,0,Undergraduate,"(10, 20]",Asia,England
+00088293,0,Undergraduate,"(0, 10]",North America,Scotland
+00010888,0,School,"(40, 50]",South America,England
+00071085,0,School,"(20, 30]",North America,England
+00034328,1,Other,"(20, 30]",Europe,England
+00089883,0,School,"(10, 20]",Africa,England
+00089801,0,School,"(0, 10]",Asia,England
+00082199,0,Other,"(20, 30]",Asia,England
+00025137,0,School,"(0, 10]",Africa,England
+00089330,0,Undergraduate,"(40, 50]",North America,England
+00073909,0,Postgraduate,"(30, 40]",Asia,England
+00045350,0,Other,"(0, 10]",North America,England
+00043669,0,School,"(10, 20]",North America,Scotland
+00086531,0,School,"(30, 40]",Africa,England
+00059749,0,School,"(30, 40]",Europe,England
+00090696,0,Postgraduate,"(10, 20]",South America,England
+00074057,0,Postgraduate,"(0, 10]",Europe,England
+00062070,0,Postgraduate,"(30, 40]",North America,England
+00058618,0,School,"(20, 30]",North America,England
+00055059,0,Undergraduate,"(30, 40]",Oceania,England
+00063884,0,School,"(20, 30]",Europe,England
+00036399,0,Postgraduate,"(0, 10]",North America,England
+00013722,0,Undergraduate,"(40, 50]",Europe,England
+00029656,0,Undergraduate,"(30, 40]",Europe,England
+00051166,0,School,"(40, 50]",Oceania,Scotland
+00077948,0,School,"(20, 30]",North America,England
+00019991,0,Undergraduate,"(20, 30]",Africa,England
+00083883,0,School,"(30, 40]",Europe,England
+00082081,0,Other,"(20, 30]",Europe,Scotland
+00068918,1,Undergraduate,"(0, 10]",North America,England
+00062439,0,Other,"(20, 30]",Oceania,England
+00069919,0,School,"(20, 30]",Europe,England
+00052263,0,Postgraduate,"(20, 30]",North America,England
+00053999,0,Other,"(30, 40]",Europe,England
+00064108,0,School,"(30, 40]",Africa,England
+00057445,0,Undergraduate,"(0, 10]",Asia,England
+00027663,0,School,"(20, 30]",North America,England
+00092461,0,School,"(30, 40]",Asia,England
+00077688,0,School,"(20, 30]",Europe,England
+00056430,0,School,"(20, 30]",Asia,Scotland
+00029210,0,Undergraduate,"(30, 40]",Asia,England
+00032277,0,Other,"(0, 10]",South America,England
+00015451,0,Postgraduate,"(20, 30]",Asia,England
+00074204,0,School,"(0, 10]",North America,England
+00048267,0,School,"(20, 30]",Asia,Wales
+00082049,0,School,"(10, 20]",Africa,England
+00052102,0,Other,"(20, 30]",North America,England
+00039082,0,School,"(40, 50]",Africa,England
+00062978,0,Undergraduate,"(20, 30]",Europe,England
+00038048,0,School,"(0, 10]",Africa,England
+00029508,0,School,"(30, 40]",South America,England
+00029245,0,Undergraduate,"(10, 20]",Asia,England
+00055071,0,Postgraduate,"(20, 30]",South America,England
+00086352,0,School,"(20, 30]",Africa,England
+00076995,0,School,"(0, 10]",Oceania,England
+00041952,0,Postgraduate,"(10, 20]",Oceania,England
+00022725,1,Undergraduate,"(20, 30]",Asia,England
+00064746,0,School,"(10, 20]",Africa,England
+00062170,0,School,"(10, 20]",Europe,England
+00041503,0,Undergraduate,"(20, 30]",Asia,England
+00097215,0,School,"(0, 10]",Asia,England
+00060853,0,School,"(30, 40]",Asia,England
+00089197,0,Undergraduate,"(10, 20]",North America,England
+00041965,0,Undergraduate,"(20, 30]",Africa,Scotland
+00093138,0,School,"(40, 50]",Asia,England
+00023003,0,School,"(30, 40]",Europe,England
+00097787,0,Undergraduate,"(30, 40]",Asia,England
+00042825,0,Other,"(30, 40]",Europe,England
+00083606,0,School,"(30, 40]",Asia,England
+00068393,0,School,"(20, 30]",South America,England
+00029636,0,Postgraduate,"(0, 10]",Africa,England
+00050092,0,Undergraduate,"(0, 10]",Europe,Scotland
+00064139,0,Postgraduate,"(0, 10]",North America,England
+00056912,0,Postgraduate,"(20, 30]",North America,England
+00021563,0,School,"(40, 50]",Africa,England
+00079839,0,School,"(30, 40]",Europe,England
+00057154,0,Undergraduate,"(0, 10]",Europe,England
+00020605,0,School,"(40, 50]",Africa,England
+00077833,0,School,"(30, 40]",Europe,England
+00087277,1,Postgraduate,"(20, 30]",Oceania,England
+00089860,0,Undergraduate,"(10, 20]",Asia,England
+00010738,0,Undergraduate,"(10, 20]",Oceania,England
+00054677,0,Postgraduate,"(20, 30]",Africa,England
+00020764,0,Postgraduate,"(30, 40]",Asia,England
+00063828,0,School,"(20, 30]",Asia,England
+00083973,0,School,"(40, 50]",Africa,England
+00049606,0,Undergraduate,"(10, 20]",Asia,England
+00072781,0,School,"(20, 30]",Africa,England
+00028764,0,Postgraduate,"(30, 40]",Europe,England
+00045596,0,School,"(10, 20]",Europe,England
+00087774,0,Undergraduate,"(10, 20]",Oceania,England
+00029678,0,School,"(40, 50]",Oceania,England
+00034111,0,School,"(0, 10]",Africa,England
+00013879,0,Undergraduate,"(40, 50]",Europe,England
+00076177,0,School,"(30, 40]",North America,England
+00029430,0,Postgraduate,"(0, 10]",Asia,England
+00011460,0,Undergraduate,"(30, 40]",South America,England
+00096346,0,School,"(20, 30]",Africa,England
+00036172,0,Postgraduate,"(0, 10]",Europe,Scotland
+00048476,0,School,"(0, 10]",Oceania,England
+00011907,0,School,"(30, 40]",Africa,England
+00078307,0,School,"(10, 20]",Asia,Scotland
+00017368,0,Other,"(30, 40]",Africa,Wales
+00069055,0,Other,"(40, 50]",South America,England
+00023075,0,Undergraduate,"(0, 10]",Europe,Wales
+00069579,0,Other,"(0, 10]",Oceania,England
+00053192,0,Undergraduate,"(0, 10]",Oceania,Wales
+00042379,0,Undergraduate,"(40, 50]",South America,England
+00039525,0,School,"(30, 40]",Asia,England
+00071023,0,School,"(20, 30]",North America,England
+00062826,0,School,"(10, 20]",North America,England
+00081627,0,School,"(10, 20]",Africa,England
+00074246,0,Other,"(20, 30]",Europe,England
+00018065,0,Undergraduate,"(0, 10]",Europe,Scotland
+00047190,0,Postgraduate,"(40, 50]",Europe,Northern Ireland
+00042068,0,Undergraduate,"(20, 30]",Asia,England
+00016125,0,School,"(40, 50]",North America,England
+00075833,0,Postgraduate,"(20, 30]",Africa,England
+00034511,0,Postgraduate,"(30, 40]",Asia,England
+00038892,0,School,"(0, 10]",Africa,England
+00088537,0,Postgraduate,"(30, 40]",Africa,England
+00081478,0,School,"(10, 20]",Africa,England
+00072876,0,Postgraduate,"(20, 30]",Africa,England
+00088162,0,Other,"(0, 10]",Asia,England
+00070557,0,School,"(0, 10]",Asia,England
+00074675,0,School,"(30, 40]",Europe,England
+00084416,0,School,"(40, 50]",Asia,England
+00030572,0,School,"(30, 40]",Europe,England
+00094415,0,School,"(0, 10]",Asia,England
+00081912,0,School,"(40, 50]",Oceania,England
+00027107,0,School,"(40, 50]",North America,England
+00011493,0,School,"(30, 40]",North America,England
+00062190,0,Undergraduate,"(40, 50]",Europe,England
+00021599,0,School,"(40, 50]",Oceania,England
+00076443,0,School,"(40, 50]",Africa,Scotland
+00050451,0,Postgraduate,"(30, 40]",Oceania,England
+00028424,0,School,"(30, 40]",North America,England
+00068098,0,School,"(30, 40]",Europe,England
+00083290,0,Undergraduate,"(20, 30]",Oceania,England
+00063300,0,School,"(20, 30]",Europe,Scotland
+00022650,0,School,"(0, 10]",Europe,England
+00043377,0,Undergraduate,"(10, 20]",Africa,England
+00012533,0,Undergraduate,"(10, 20]",Europe,England
+00039895,0,Other,"(20, 30]",Africa,England
+00078719,0,Undergraduate,"(30, 40]",Europe,England
+00084325,0,Postgraduate,"(30, 40]",Europe,England
+00032584,0,School,"(40, 50]",North America,England
+00025342,0,Postgraduate,"(0, 10]",North America,England
+00067022,0,Undergraduate,"(10, 20]",Europe,England
+00036596,0,Other,"(10, 20]",North America,England
+00078480,0,Undergraduate,"(20, 30]",Oceania,England
+00054379,0,Undergraduate,"(20, 30]",Asia,Scotland
+00099331,0,Undergraduate,"(30, 40]",Africa,England
+00080860,0,School,"(10, 20]",Asia,England
+00019353,0,Other,"(20, 30]",Asia,England
+00022305,1,School,"(30, 40]",Oceania,England
+00024810,0,School,"(20, 30]",Europe,England
+00059241,0,Other,"(30, 40]",Asia,England
+00091453,0,Undergraduate,"(40, 50]",Africa,England
+00048161,0,School,"(30, 40]",Europe,England
+00096956,0,Postgraduate,"(30, 40]",Asia,England
+00033149,0,Other,"(30, 40]",North America,England
+00058980,0,School,"(0, 10]",Oceania,England
+00066122,0,Undergraduate,"(30, 40]",Asia,England
+00072084,0,School,"(10, 20]",North America,England
+00067868,0,School,"(10, 20]",Asia,England
+00059788,0,School,"(0, 10]",Asia,England
+00014622,0,Postgraduate,"(0, 10]",Africa,England
+00012299,0,Undergraduate,"(0, 10]",Europe,England
+00077760,0,Postgraduate,"(20, 30]",Asia,England
+00057037,0,Undergraduate,"(20, 30]",Oceania,England
+00038958,0,School,"(0, 10]",Oceania,Scotland
+00038458,0,School,"(0, 10]",Europe,England
+00073606,0,School,"(40, 50]",Asia,England
+00032129,0,Undergraduate,"(30, 40]",Oceania,England
+00025971,0,Other,"(40, 50]",Africa,England
+00057794,0,School,"(30, 40]",Oceania,England
+00097509,0,School,"(30, 40]",Asia,England
+00023443,0,Undergraduate,"(40, 50]",Europe,England
+00040562,0,School,"(0, 10]",Oceania,England
+00084230,0,School,"(10, 20]",Asia,England
+00081722,0,School,"(20, 30]",North America,England
+00012522,0,School,"(0, 10]",Europe,England
+00036943,0,Other,"(0, 10]",North America,England
+00021397,1,School,"(0, 10]",Oceania,England
+00070433,0,School,"(0, 10]",North America,England
+00016992,0,School,"(20, 30]",Asia,Wales
+00072777,0,Other,"(30, 40]",Europe,England
+00051011,0,School,"(30, 40]",Africa,Scotland
+00078417,0,Undergraduate,"(30, 40]",Europe,England
+00018668,0,Postgraduate,"(40, 50]",North America,England

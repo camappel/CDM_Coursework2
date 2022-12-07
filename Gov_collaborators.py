@@ -17,8 +17,16 @@ df.shape
 # set seed
 random.seed(0)
 
+# generate sample id
+sample_ID = np.random.randint(10000, 99999, size=1000)
+sample_ID = sample_ID.tolist()
+for i in range(1000):
+    sample_ID[i] = '000' + str(sample_ID[i])
+
+df["sid"] = sample_ID
+
 ############### only keep geographic and education characteristics ###############
-df_ns = df[['country_of_birth', 'postcode', 'cc_status', 'education_level', 'n_countries_visited']]
+df_ns = df[['sid', 'country_of_birth', 'postcode', 'cc_status', 'education_level', 'n_countries_visited']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -32,16 +40,12 @@ def country_to_continent(country_name):
         return 'North America'
     elif country_name in ['Saint Helena', 'Reunion', 'Western Sahara', 'Libyan Arab Jamahiriya', "Cote d'Ivoire"]:
         return 'Africa'
-    elif country_name in ['Antarctica (the territory South of 60 deg S)','Bouvet Island (Bouvetoya)']:
+    elif country_name in ['Antarctica (the territory South of 60 deg S)']:
         return 'Antarctica'
-    elif country_name == 'Svalbard & Jan Mayen Islands':
-        return 'the Arctic Ocean'
     elif country_name == 'Pitcairn Islands':
         return 'Oceania'
-    elif country_name in ['Slovakia (Slovak Republic)', 'Holy See (Vatican City State)']:
+    elif country_name in ['Slovakia (Slovak Republic)', 'Holy See (Vatican City State)', 'British Indian Ocean Territory (Chagos Archipelago)', 'Bouvet Island (Bouvetoya)', 'Svalbard & Jan Mayen Islands']:
         return 'Europe'
-    elif country_name == 'British Indian Ocean Territory (Chagos Archipelago)':
-        return 'Indian Ocean'
     elif country_name == 'Netherlands Antilles':
         return 'South America'
     else:
@@ -53,14 +57,6 @@ def country_to_continent(country_name):
 df_ns['continent_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
 # drop country of birth column
 df_ns = df_ns.drop(columns = 'country_of_birth')
-# check numbers in each continent
-a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
-a.loc[a['count'] < 30]
-# combine Antarctica, Indian Ocean, the Arctic Ocean and South America --> smallest categry contains at least 50 people OR drop the records
-df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'Other continents',
-                                                                   'Indian Ocean': 'Other continents',
-                                                                   'the Arctic Ocean': 'Other continents',
-                                                                   'South America': 'Other continents'})
 # check numbers in each continent
 a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
 a
@@ -102,7 +98,22 @@ a
 df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'School',
                                                              'secondary': 'School',
                                                              'masters': 'Postgraduate',
-                                                             'phD': 'Postgraduate'})
+                                                             'phD': 'Postgraduate',
+                                                             'bachelor': 'Undergraduate',
+                                                             'other': 'Other'})
+
+############## n_countries_visited ################
+# explore: uniform distribution
+df_ns['n_countries_visited'].describe()
+hist_1 = df_ns['n_countries_visited'].hist(bins=10)
+hist_1.plot()
+plt.show()
+# binning
+bins = [0, 10, 20, 30, 40, 50]
+labels = ['(0, 10]', '(10, 20]', '(20, 30]', '(30, 40]', '(40, 50]']
+df_ns['n_countries_visited'] = pd.cut(df_ns['n_countries_visited'], bins = bins, labels = labels, include_lowest = False)
+# check number in each category
+df_ns.groupby(['n_countries_visited']).size().reset_index(name='count')
 
 ############### calculate k-anonimity ##################
 df_ns.describe()
@@ -113,13 +124,20 @@ a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size(
 b = a.loc[a['count']==1]
 a.shape
 b.shape
-# remove the 20 individuals?
-# sample with probability?
-# partial sample?
+# get sid of the 27 individuals
+df_unique = pd.merge(b, df_ns,  how='left', 
+                  left_on=['UK_country', 'continent_of_birth', 'education_level'], 
+                  right_on = ['UK_country', 'continent_of_birth', 'education_level'])
+df_unique[['sid', 'count']]
+# remove 
+df_ns = df_ns[df_ns['sid'].isin(df_unique['sid']) == False]
+
+# 2-anonymity
+a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
+a['count'].min()
 
 # save CSVs
 # sensitive file: same as the sensitive_info file for researchers
 # file for government collaborators
-
-# df.to_csv(PATH)
+df_ns.to_csv('Data/gov_dataset.csv', index = False)
 
