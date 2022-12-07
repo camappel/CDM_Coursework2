@@ -206,9 +206,9 @@ print(k) # 20-anonymity
 
 ############# save CSVs ############
 # sensitive PII file
-df_s.to_csv('Data/sensitive_info.csv')
+df_s.to_csv('Data/sensitive_info.csv', index = False)
 # file for researchers
-df_ns.to_csv('Data/researchers_v2.csv')
+df_ns.to_csv('Data/researchers_dataset.csv', index = False)
 # dictionary
-with open('Data/secretCode.json', 'w') as fp:
-    json.dump(imp_info, fp)
+with open('Data/res_data_coding.json', 'w') as fp:
+    json.dump(imp_info, fp, indent = 4)
