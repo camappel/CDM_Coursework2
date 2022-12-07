@@ -208,7 +208,8 @@ print(k) # 20-anonymity
 # sensitive PII file
 df_s.to_csv('Data/sensitive_info.csv', index = False)
 # file for researchers
-df_ns.to_csv('Data/researchers_dataset.csv', index = False)
+df_ns_reorder = df_ns[['sid', 'cc_status', 'postcode','country_of_birth', 'continent_of_birth','age','education_level','weight','height','blood_group', 'gender','avg_n_drinks_per_week','avg_n_cigret_per_week','n_countries_visited']]
+df_ns_reorder.to_csv('Data/researchers_dataset.csv', index = False)
 # dictionary
 with open('Data/res_data_coding.json', 'w') as fp:
     json.dump(imp_info, fp, indent = 4)
