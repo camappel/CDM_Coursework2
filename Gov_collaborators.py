@@ -17,22 +17,8 @@ df.shape
 # set seed
 random.seed(0)
 
-# generate sample id
-sample_ID = np.random.randint(10000, 99999, size=1000)
-sample_ID = sample_ID.tolist()
-for i in range(1000):
-    sample_ID[i] = '000' + str(sample_ID[i])
-
-df["sid"] = sample_ID
-
-# dataset with sid and sensitive PII
-df_s = df[['sid', 'given_name', 'surname', 'phone_number', 'national_insurance_number', 'bank_account_number']]
-
-# dataset without sensitive PII
-df_ns = df.drop(columns=['given_name', 'surname', 'phone_number', 'national_insurance_number', 'bank_account_number'])
-
 ############### only keep geographic and education characteristics ###############
-df_ns = df_ns[['country_of_birth', 'postcode', 'cc_status', 'education_level']]
+df_ns = df[['country_of_birth', 'postcode', 'cc_status', 'education_level']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -123,14 +109,15 @@ df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'Primary
 ############### calculate k-anonimity ##################
 df_ns.describe()
 
-# df_ns.groupby(['cc_status', 'UK_country', 'continent of birth', 'education level']).size().reset_index(name='count')
+# df_ns.groupby(['cc_status', 'UK_country', 'continent_of_birth', 'education level']).size().reset_index(name='count')
 # 2 * 3 * 6 * 4 = 144
-a = df_ns.groupby(['cc_status', 'UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
+a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 b = a.loc[a['count']==1]
 a.shape
 b.shape
 # remove the 20 individuals?
 # sample with probability?
+# partial sample?
 
 # save CSVs
 # sensitive file: same as the sensitive_info file for researchers
