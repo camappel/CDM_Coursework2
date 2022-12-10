@@ -1,11 +1,16 @@
+# load packages
+import os
 import pandas as pd
 import numpy as np
 import random
 import matplotlib.pyplot as plt
 import pycountry_convert as pc
 
+# set wording directory
+# for submission, these scripts would be stored in supporting documents
+
 # define path
-PATH = './Data/customer_information.csv'
+PATH = 'CDM_CW2_G2/Data/customer_information.csv'
 
 # reading the CSV file
 df = pd.read_csv(PATH)
@@ -61,12 +66,11 @@ df_ns = df_ns.drop(columns = 'country_of_birth')
 a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
 a
 # combine South America and Antarctica 
-df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'Others',
-                                                                   'South America': 'Others',
-                                                                   'Oceania': 'Others'})
+# df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'Others',
+#                                                                    'South America': 'Others'})
 # check numbers in each continent
-a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
-a
+# a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
+# a
 
 ############################### postcode --> banding ##################################
 ####### keep outbound characters only
@@ -82,7 +86,7 @@ df_ns['postcode'] = df['postcode'].apply(lambda x: x[:find_first_digit(x)])
 post_count = df_ns.groupby(['postcode']).size().reset_index(name='count')
 post_count
 # get dictionary for convert to UK country
-postcode_country = pd.read_csv('Data/postcode_country.csv')
+postcode_country = pd.read_csv('CDM_CW2_G2/Supporting_material/postcode_country.csv')
 post_to_country = dict(zip(postcode_country['Postcode area'], postcode_country['Country']))
 # convert to country
 df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
@@ -90,12 +94,10 @@ df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
 df_ns = df_ns.drop(columns = 'postcode')
 # check number of individuals in each category
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
-a.loc[a['count'] < 30]
+a
 # combine Channel Islands. Isle of Man, Northern Ireland and Wales
-df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Others',
-                                                   'Isle of Man': 'Others',
-                                                   'Northern Ireland': 'Others',
-                                                   'Wales': 'Others'})
+df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Overseas territories',
+                                                   'Isle of Man': 'Overseas territories'})
 
 # check number of individuals in each category
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
@@ -117,11 +119,9 @@ df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'School'
 df_ns['n_countries_visited'].describe()
 hist_1 = df_ns['n_countries_visited'].hist(bins=10)
 hist_1.plot()
-plt.show()
+#plt.show()
 # binning
-bins = [0, 10, 20, 30, 40, 50]
-labels = ['(0, 10]', '(10, 20]', '(20, 30]', '(30, 40]', '(40, 50]']
-df_ns['n_countries_visited'] = pd.cut(df_ns['n_countries_visited'], bins = bins, labels = labels, include_lowest = False)
+df_ns['n_countries_visited'] = pd.qcut(df_ns['n_countries_visited'], 4)
 # check number in each category
 df_ns.groupby(['n_countries_visited']).size().reset_index(name='count')
 
@@ -153,4 +153,3 @@ a['count'].min()
 # sensitive file: same as the sensitive_info file for researchers
 # file for government collaborators
 df_ns.to_csv('Data/gov_dataset.csv', index = False)
-
