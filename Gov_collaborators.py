@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pycountry_convert as pc
 
 # define path
-PATH = './Data/customer_information.csv'
+PATH = '../Data/customer_information.csv'
 
 # reading the CSV file
 df = pd.read_csv(PATH)
@@ -26,7 +26,7 @@ for i in range(1000):
 df["sid"] = sample_ID
 
 ############### only keep geographic and education characteristics ###############
-df_ns = df[['sid', 'country_of_birth', 'postcode', 'cc_status', 'education_level', 'n_countries_visited']]
+df_ns = df[['sid', 'country_of_birth', 'postcode', 'cc_status', 'education_level']]
 
 ########### country of birth --> continent ##############
 df_ns['country_of_birth'].describe()
@@ -60,13 +60,6 @@ df_ns = df_ns.drop(columns = 'country_of_birth')
 # check numbers in each continent
 a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
 a
-# combine South America and Antarctica 
-df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'Others',
-                                                                   'South America': 'Others',
-                                                                   'Oceania': 'Others'})
-# check numbers in each continent
-a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
-a
 
 ############################### postcode --> banding ##################################
 ####### keep outbound characters only
@@ -82,7 +75,7 @@ df_ns['postcode'] = df['postcode'].apply(lambda x: x[:find_first_digit(x)])
 post_count = df_ns.groupby(['postcode']).size().reset_index(name='count')
 post_count
 # get dictionary for convert to UK country
-postcode_country = pd.read_csv('Data/postcode_country.csv')
+postcode_country = pd.read_csv('CDM_CW2_G2/Supporting_material/postcode_country.csv')
 post_to_country = dict(zip(postcode_country['Postcode area'], postcode_country['Country']))
 # convert to country
 df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
@@ -90,13 +83,10 @@ df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
 df_ns = df_ns.drop(columns = 'postcode')
 # check number of individuals in each category
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
-a.loc[a['count'] < 30]
-# combine Channel Islands. Isle of Man, Northern Ireland and Wales
-df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Others',
-                                                   'Isle of Man': 'Others',
-                                                   'Northern Ireland': 'Others',
-                                                   'Wales': 'Others'})
-
+a
+# combine Channel Islands and Isle of Man
+df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Overseas territories',
+                                                   'Isle of Man': 'Overseas territories'})
 # check number of individuals in each category
 a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
 a
@@ -112,24 +102,7 @@ df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'School'
                                                              'bachelor': 'Undergraduate',
                                                              'other': 'Other'})
 
-############## n_countries_visited ################
-# explore: uniform distribution
-df_ns['n_countries_visited'].describe()
-hist_1 = df_ns['n_countries_visited'].hist(bins=10)
-hist_1.plot()
-plt.show()
-# binning
-bins = [0, 10, 20, 30, 40, 50]
-labels = ['(0, 10]', '(10, 20]', '(20, 30]', '(30, 40]', '(40, 50]']
-df_ns['n_countries_visited'] = pd.cut(df_ns['n_countries_visited'], bins = bins, labels = labels, include_lowest = False)
-# check number in each category
-df_ns.groupby(['n_countries_visited']).size().reset_index(name='count')
-
 ############### calculate k-anonimity ##################
-df_ns.describe()
-
-# df_ns.groupby(['UK_country', 'continent_of_birth', 'education level']).size().reset_index(name='count')
-# 3 * 4 * 4 = 
 a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 b = a.loc[a['count']==1]
 a.shape
@@ -139,18 +112,15 @@ df_unique = pd.merge(b, df_ns,  how='left',
                   left_on=['UK_country', 'continent_of_birth', 'education_level'], 
                   right_on = ['UK_country', 'continent_of_birth', 'education_level'])
 df_unique[['sid', 'count']]
-# remove 
+# remove
 df_ns = df_ns[df_ns['sid'].isin(df_unique['sid']) == False]
-
-########## remove sid column ##############
-df_ns = df_ns.drop(columns = 'sid')
 
 # 2-anonymity
 a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 a['count'].min()
 
 # save CSVs
-# sensitive file: same as the sensitive_info file for researchers
+# sensitive file: same as the sensitive_info file for researchers, but with sid column
 # file for government collaborators
 df_ns.to_csv('Data/gov_dataset.csv', index = False)
 
