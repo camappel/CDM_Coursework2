@@ -7,7 +7,7 @@ import pycountry_convert as pc
 import json
 
 # define path of data file
-PATH = './Data/customer_information.csv'
+PATH = 'CDM_CW2_G2/Data/customer_information.csv'
 
 # reading the CSV file
 df = pd.read_csv(PATH)
@@ -35,13 +35,23 @@ df_ns = df.drop(columns=['given_name', 'surname', 'phone_number', 'national_insu
 
 ############### current country: all in UK --> remove ###############
 df_ns = df_ns.drop(columns = 'current_country')
-# remove others
-df_ns = df_ns.drop(columns = ['education_level', 'postcode'])
+# remove post code and country of birth
+df_ns = df_ns.drop(columns = ['postcode', 'country_of_birth'])
 
 ############ gender --> code ################
 df_ns['gender'] = np.where(df_ns['gender'] == "M", 1, 0)
 # add coding information to a dictionary
 imp_info = {'gender': {'male': 1, 'female': 0}}
+
+########### education_level --> banding ##########
+df_ns['education_level'] = df_ns['education_level'].replace({'bachelor': 'undergraduate',
+                                                             'master': 'graduate',
+                                                             'phD': 'graduate'})
+# code
+el_code = {'graduate': 1, 'primary': 2, 'undergraduate': 3, 'secondary': 4, 'other': 5}
+df_ns['education_level'] = df_ns['education_level'].replace(el_code)
+# add coding info into dictionary
+imp_info['education_level'] = el_code
 
 ########### blood_group --> code ############
 df_ns['blood_group'].unique()
@@ -51,62 +61,13 @@ df_ns['blood_group'] = df_ns['blood_group'].replace(bg_code)
 # add coding info into dictionary
 imp_info['blood_group'] = bg_code
 
-########### country of birth --> continent ##############
-df_ns['country_of_birth'].describe()
-cb_count = df_ns.groupby(['country_of_birth']).size().reset_index(name='count')
-cb_count
-# define functional for converting country to continent
-def country_to_continent(country_name):
-    if country_name in ['Korea', 'Palestinian Territory', 'Timor-Leste']:
-        return 'Asia'
-    elif country_name in ['Saint Barthelemy','United States Minor Outlying Islands']:
-        return 'North America'
-    elif country_name in ['Saint Helena', 'Reunion', 'Western Sahara', 'Libyan Arab Jamahiriya', "Cote d'Ivoire"]:
-        return 'Africa'
-    elif country_name in ['Antarctica (the territory South of 60 deg S)']:
-        return 'Antarctica'
-    elif country_name == 'Pitcairn Islands':
-        return 'Oceania'
-    elif country_name in ['Slovakia (Slovak Republic)', 'Holy See (Vatican City State)', 'British Indian Ocean Territory (Chagos Archipelago)', 'Bouvet Island (Bouvetoya)', 'Svalbard & Jan Mayen Islands']:
-        return 'Europe'
-    elif country_name == 'Netherlands Antilles':
-        return 'South America'
-    else:
-        country_alpha2 = pc.country_name_to_country_alpha2(country_name)
-        country_continent_code = pc.country_alpha2_to_continent_code(country_alpha2)
-        country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
-        return country_continent_name
-# convert
-df_ns['continent_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
-# check numbers in each continent
-n = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
-print(n)
-# combine South America and Antarctica 
-df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace({'Antarctica': 'SA & Antarctica',
-                                                                   'South America': 'SA & Antarctica',})
-# check numbers in each continent
-uniq_cont = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
-uniq_cont
-
-################ continent_names --> code ##############
-# unique contient_names
-unique_continent_names = df_ns['continent_of_birth'].unique()
-n = unique_continent_names.size
-# code place of birth using random numbers
-continent_codes = np.random.randint(10, 99, size = n)
-continent_dict = dict(zip(unique_continent_names, continent_codes.tolist()))
-# replace continent names with codes
-df_ns['continent_of_birth'] = df_ns['continent_of_birth'].replace(continent_dict)
-# add coding info into dictionary
-imp_info['continent_of_birth'] = continent_dict
-
 ############# birthdate --> age --> banding ###########
 # convert to age
 birthyear = pd.to_datetime(df['birthdate']).dt.year
 df_ns['age'] = 2022 - birthyear
 df_ns = df_ns.drop(columns = ['birthdate'])
 # by quartile
-df_ns['age'] = pd.qcut(df_ns['age'], 5)
+df_ns['age'] = pd.qcut(df_ns['age'], 5, labels = ['18-28', '29-39', '40-48', '48-59', '60+'])
 
 ############ standardisation
 # define function for standardisation
@@ -153,20 +114,33 @@ df_ns['n_countries_visited'] = tmp[0]
 imp_info['n_countries_visited'] = tmp[1]
 
 ############### calculate k-anonimity ##################
-######
-groups = df_ns.groupby(['gender', 'age', 'continent_of_birth']).size().reset_index(name='count')
+groups = df_ns.groupby(['gender', 'age', 'education_level']).size().reset_index(name='count')
 u_groups = groups.loc[groups['count'] == 1]
 u_groups.shape
 ######
 k = groups['count'].min()
-print(k) # 5-anonymity
+print(k) # 2-anonymity
+
+######
+groups = df_ns.groupby(['gender', 'age']).size().reset_index(name='count')
+u_groups = groups.loc[groups['count'] == 1]
+u_groups.shape
+######
+k = groups['count'].min()
+print(k) # 87-anonymity
 
 ############# save CSVs ############
 # sensitive PII file
-df_s.to_csv('Data/sensitive_info.csv', index = False)
+df_s.to_csv('CDM_CW2_G2/Supporting_material/sensitive_info.csv', index = False)
 # file for researchers
-df_ns_reorder = df_ns[['sid', 'cc_status', 'postcode','country_of_birth', 'continent_of_birth','age','education_level','weight','height','blood_group', 'gender','avg_n_drinks_per_week','avg_n_cigret_per_week','n_countries_visited']]
-df_ns_reorder.to_csv('Data/researchers_dataset.csv', index = False)
+df_ns_reorder = df_ns[['sid', 'gender','age', 'education_level', 'cc_status', 'weight', 'height', 'blood_group', 
+                       'avg_n_drinks_per_week','avg_n_cigret_per_week','n_countries_visited']]
+df_ns_reorder.to_csv('CDM_CW2_G2/Anonymised_data/Imperial_researchers/researchers_dataset.csv', index = False)
 # dictionary
-with open('Data/res_data_coding.json', 'w') as fp:
+with open('CDM_CW2_G2/Anonymised_data/Imperial_researchers/coding.json', 'w') as fp:
     json.dump(imp_info, fp, indent = 4)
+
+########### password for file ###########
+password = str(np.random.randint(10000, 99999, size=1))
+with open('CDM_CW2_G2/Anonymised_data/Imperial_researchers/password.txt', 'w') as f:
+    f.write(password)

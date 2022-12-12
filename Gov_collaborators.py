@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pycountry_convert as pc
 
 # define path
-PATH = '../Data/customer_information.csv'
+PATH = 'CDM_CW2_G2/Data/customer_information.csv'
 
 # reading the CSV file
 df = pd.read_csv(PATH)
@@ -107,7 +107,7 @@ a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size(
 b = a.loc[a['count']==1]
 a.shape
 b.shape
-# get sid of the 27 individuals
+# get the sid of the 27 individuals
 df_unique = pd.merge(b, df_ns,  how='left', 
                   left_on=['UK_country', 'continent_of_birth', 'education_level'], 
                   right_on = ['UK_country', 'continent_of_birth', 'education_level'])
@@ -122,5 +122,11 @@ a['count'].min()
 # save CSVs
 # sensitive file: same as the sensitive_info file for researchers, but with sid column
 # file for government collaborators
-df_ns.to_csv('Data/gov_dataset.csv', index = False)
+# file for researchers
+df_ns_reorder = df_ns[['sid', 'education_level', 'cc_status', 'continent_of_birth', 'UK_country']]
+df_ns_reorder.to_csv('CDM_CW2_G2/Anonymised_data/Government_collaborators/gov_dataset.csv', index = False)
 
+########### password for file ###########
+password = str(np.random.randint(10000, 99999, size=1))
+with open('CDM_CW2_G2/Anonymised_data/Government_collaborators/password.txt', 'w') as f:
+    f.write(password)
