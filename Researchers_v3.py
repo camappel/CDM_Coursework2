@@ -49,11 +49,13 @@ df_ns['gender'] = np.where(df_ns['gender'] == "M", 1, 0)
 imp_info['gender'] = {'male': 1, 'female': 0}
 
 ########### education_level --> banding ##########
-df_ns['education_level'] = df_ns['education_level'].replace({'bachelor': 'undergraduate',
-                                                             'master': 'graduate',
-                                                             'phD': 'graduate'})
+df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'school',
+                                                             'secondary': 'school',
+                                                             'bachelor': 'college',
+                                                             'master': 'college',
+                                                             'phD': 'college'})
 # code
-el_code = {'graduate': 1, 'primary': 2, 'undergraduate': 3, 'secondary': 4, 'other': 5}
+el_code = {'college': 1, 'school': 2, 'other': 3}
 df_ns['education_level'] = df_ns['education_level'].replace(el_code)
 # add coding info into dictionary
 imp_info['education_level'] = el_code
@@ -72,7 +74,7 @@ birthyear = pd.to_datetime(df['birthdate']).dt.year
 df_ns['age'] = 2022 - birthyear
 df_ns = df_ns.drop(columns = ['birthdate'])
 # by quartile
-df_ns['age'] = pd.qcut(df_ns['age'], 5, labels = ['18-28', '29-39', '40-48', '48-59', '60+'])
+df_ns['age'] = pd.qcut(df_ns['age'], 4, labels = ['18-32', '33-43', '44-55', '55+'])
 
 ############ standardisation
 # define function for standardisation
@@ -124,7 +126,7 @@ u_groups = groups.loc[groups['count'] == 1]
 u_groups.shape
 ######
 k = groups['count'].min()
-print(k) # 2-anonymity
+print(k) # 9-anonymity
 
 ######
 groups = df_ns.groupby(['gender', 'age']).size().reset_index(name='count')

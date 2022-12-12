@@ -9,11 +9,9 @@
         "female": 0
     },
     "education_level": {
-        "graduate": 1,
-        "primary": 2,
-        "undergraduate": 3,
-        "secondary": 4,
-        "other": 5
+        "college": 1,
+        "school": 2,
+        "other": 3
     },
     "blood_group": {
         "B+": 1,
