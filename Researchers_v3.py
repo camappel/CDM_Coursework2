@@ -38,10 +38,15 @@ df_ns = df_ns.drop(columns = 'current_country')
 # remove post code and country of birth
 df_ns = df_ns.drop(columns = ['postcode', 'country_of_birth'])
 
+########## generate dictionary ###########
+imp_info = {'instructions': {'Categorical variables': 'Coding information can be found in this file',
+                            'Continuous variables': 'Standardised: Mean and standard deviations can be found in this file to reverse to original values',
+                            'Password': 'Dataset is password protected, password can be found in the password.txt file'}}
+
 ############ gender --> code ################
 df_ns['gender'] = np.where(df_ns['gender'] == "M", 1, 0)
 # add coding information to a dictionary
-imp_info = {'gender': {'male': 1, 'female': 0}}
+imp_info['gender'] = {'male': 1, 'female': 0}
 
 ########### education_level --> banding ##########
 df_ns['education_level'] = df_ns['education_level'].replace({'bachelor': 'undergraduate',
@@ -130,8 +135,8 @@ k = groups['count'].min()
 print(k) # 87-anonymity
 
 ############# save CSVs ############
-# sensitive PII file
-df_s.to_csv('CDM_CW2_G2/Supporting_material/sensitive_info.csv', index = False)
+# direct identifiers file
+df_s.to_csv('CDM_CW2_G2/Supporting_material/direct_identifiers.csv', index = False)
 # file for researchers
 df_ns_reorder = df_ns[['sid', 'gender','age', 'education_level', 'cc_status', 'weight', 'height', 'blood_group', 
                        'avg_n_drinks_per_week','avg_n_cigret_per_week','n_countries_visited']]

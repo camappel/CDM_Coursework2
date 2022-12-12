@@ -1,4 +1,9 @@
 {
+    "instructions": {
+        "Categorical variables": "Coding information can be found in this file",
+        "Continuous variables": "Standardised: Mean and standard deviations can be found in this file to reverse to original values",
+        "Password": "Dataset is password protected, password can be found in the password.txt file"
+    },
     "gender": {
         "male": 1,
         "female": 0
