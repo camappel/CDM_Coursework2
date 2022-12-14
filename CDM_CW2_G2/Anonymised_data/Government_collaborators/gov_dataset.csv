@@ -1,974 +1,974 @@
-sid,cc_status,education_level,continent_of_birth,UK_region
-00092847,0,postgraduate,Asia,England
-00041185,0,school,Oceania,England
-00069507,0,undergraduate,South America,England
-00013881,0,school,Africa,England
-00033864,0,school,South America,England
-00088704,0,other,South America,England
-00032106,0,school,Oceania,England
-00047528,0,other,North America,England
-00063924,0,school,Oceania,England
-00032640,0,undergraduate,North America,England
-00080513,0,school,Oceania,Scotland
-00080807,0,undergraduate,South America,England
-00067669,1,school,North America,England
-00048853,0,school,Africa,England
-00058809,0,school,Asia,England
-00058129,0,school,Asia,England
-00099047,0,postgraduate,Oceania,England
-00024880,0,undergraduate,Asia,England
-00020059,0,school,North America,England
-00025907,0,undergraduate,Oceania,England
-00095299,0,undergraduate,Asia,England
-00067998,0,school,Africa,England
-00067706,0,school,Asia,England
-00098026,0,school,Asia,England
-00094764,0,postgraduate,North America,England
-00068732,0,school,Oceania,Scotland
-00037231,0,school,Asia,England
-00091124,0,school,Europe,England
-00025204,0,school,North America,England
-00031114,0,school,Africa,Scotland
-00099027,0,postgraduate,Europe,England
-00084549,0,other,Africa,England
-00046695,0,school,Europe,England
-00036525,1,school,North America,England
-00042919,0,school,Europe,Scotland
-00098932,0,school,Africa,England
-00032512,0,postgraduate,North America,England
-00091536,0,school,Africa,England
-00027041,0,other,South America,England
-00095833,0,school,Africa,England
-00052877,0,school,Asia,Scotland
-00036932,0,postgraduate,South America,England
-00044626,0,other,Europe,England
-00011839,0,school,Europe,Overseas territories
-00015713,0,other,Europe,England
-00030438,0,school,Europe,England
-00025220,0,other,Oceania,England
-00015988,0,school,Asia,England
-00096216,0,school,Africa,Scotland
-00092554,0,other,North America,Scotland
-00048375,1,school,Asia,England
-00036035,0,school,North America,England
-00034915,0,postgraduate,Asia,England
-00072652,1,school,North America,England
-00098076,0,school,Africa,England
-00016747,0,school,Europe,England
-00074634,0,school,Europe,England
-00024766,0,school,Oceania,England
-00088477,0,school,Europe,England
-00053030,0,undergraduate,Oceania,England
-00021313,0,postgraduate,North America,England
-00062343,0,school,Europe,England
-00044115,0,other,North America,England
-00089797,0,other,Africa,England
-00072030,0,school,Asia,England
-00086382,0,undergraduate,Oceania,Scotland
-00088070,1,school,Asia,England
-00023506,0,school,Asia,England
-00030576,0,school,North America,England
-00070562,0,school,North America,England
-00097181,0,undergraduate,Oceania,England
-00013060,0,school,Europe,England
-00098187,0,school,Africa,England
-00048903,0,school,Asia,England
-00087734,0,school,Asia,England
-00022805,0,school,Africa,England
-00038645,0,school,Asia,England
-00052787,0,postgraduate,Africa,England
-00098536,0,school,Europe,Scotland
-00064023,0,other,Europe,Scotland
-00025643,0,school,South America,Wales
-00083489,0,school,Europe,England
-00083160,1,school,Asia,England
-00064799,0,school,North America,Scotland
-00021274,1,school,Africa,England
-00057377,0,school,Africa,England
-00044580,0,undergraduate,Oceania,Scotland
-00052734,0,school,Europe,Overseas territories
-00060212,0,postgraduate,Africa,England
-00095377,0,school,Asia,Scotland
-00076767,0,school,Africa,Scotland
-00059204,0,school,North America,England
-00025408,0,school,Asia,England
-00065906,0,undergraduate,Oceania,England
-00091462,0,school,Asia,England
-00090707,1,school,Europe,Scotland
-00050307,0,undergraduate,Europe,England
-00043496,0,postgraduate,Africa,England
-00032806,0,school,Africa,Scotland
-00098185,0,school,Asia,England
-00057824,0,school,South America,England
-00044537,0,postgraduate,Africa,England
-00055204,0,school,North America,Scotland
-00079492,0,undergraduate,Europe,England
-00070569,0,school,North America,England
-00016875,0,undergraduate,Africa,Scotland
-00011567,0,undergraduate,Africa,England
-00067410,0,undergraduate,Europe,England
-00016358,0,school,Europe,England
-00096010,0,other,Africa,England
-00078695,0,school,North America,England
-00090523,1,school,Europe,England
-00019953,0,postgraduate,Europe,England
-00088189,0,other,North America,England
-00050856,0,undergraduate,South America,England
-00036820,0,school,North America,England
-00062456,0,undergraduate,Europe,England
-00038241,0,school,Asia,England
-00072423,0,undergraduate,South America,England
-00036698,0,undergraduate,Asia,England
-00092264,0,school,Asia,England
-00091789,0,postgraduate,Africa,England
-00086551,0,school,Europe,England
-00055500,0,school,Asia,England
-00072670,0,school,Europe,England
-00067386,0,school,South America,England
-00071152,0,undergraduate,Oceania,England
-00090496,0,postgraduate,Europe,England
-00080420,0,school,Asia,England
-00053786,0,undergraduate,Africa,England
-00072131,0,undergraduate,Oceania,England
-00095990,0,undergraduate,Africa,Scotland
-00067313,0,school,Europe,Scotland
-00019020,0,other,Asia,England
-00075340,0,school,Asia,England
-00048222,0,school,Africa,England
-00080264,0,school,North America,England
-00023226,0,school,South America,England
-00033826,0,postgraduate,Europe,Scotland
-00012931,0,other,Asia,England
-00061960,0,school,Europe,England
-00087659,0,postgraduate,Oceania,England
-00046628,0,school,Asia,England
-00021423,0,school,Africa,England
-00028835,0,school,Oceania,England
-00019960,0,school,Africa,England
-00042200,0,school,North America,England
-00015307,0,school,Asia,England
-00013127,0,other,Europe,England
-00028605,0,postgraduate,Africa,England
-00035208,0,school,Africa,England
-00053377,0,other,Europe,Scotland
-00060310,0,school,Asia,England
-00037086,0,undergraduate,Africa,Scotland
-00080938,0,school,Asia,England
-00027689,0,other,Africa,Scotland
-00020189,0,postgraduate,Asia,England
-00024182,0,undergraduate,Europe,Wales
-00086619,0,school,Oceania,England
-00067620,0,undergraduate,Africa,England
-00066957,0,school,Europe,England
-00094369,0,other,Africa,Wales
-00013226,0,school,Africa,England
-00075451,0,postgraduate,Europe,Scotland
-00070447,0,school,Oceania,England
-00051019,0,other,Africa,England
-00010353,0,school,North America,England
-00051602,1,other,Europe,England
-00045563,0,postgraduate,Oceania,England
-00054669,0,postgraduate,Asia,Scotland
-00083244,0,school,Europe,England
-00083158,0,school,Asia,England
-00013926,0,undergraduate,Europe,Scotland
-00029533,0,postgraduate,Africa,England
-00097945,0,other,Asia,England
-00076434,0,postgraduate,North America,England
-00069279,0,school,South America,England
-00027632,0,undergraduate,South America,Scotland
-00029333,0,other,Asia,England
-00093638,0,undergraduate,Oceania,England
-00082648,0,school,Africa,England
-00023289,0,school,Europe,England
-00086586,0,postgraduate,Oceania,England
-00070240,0,other,North America,England
-00070469,0,undergraduate,Asia,England
-00027685,0,school,North America,Scotland
-00048828,0,postgraduate,Africa,England
-00032395,0,school,Asia,England
-00091731,0,school,Africa,England
-00032908,0,postgraduate,Oceania,England
-00089930,0,school,Asia,England
-00040676,0,school,South America,England
-00066743,1,school,Africa,England
-00080475,0,postgraduate,Europe,England
-00061839,0,school,North America,England
-00018015,0,postgraduate,Asia,England
-00032006,0,school,Antarctica,England
-00062608,0,school,South America,England
-00067422,1,other,Asia,England
-00030442,0,postgraduate,Oceania,England
-00087807,0,school,South America,England
-00084320,0,school,Africa,England
-00061957,0,school,South America,England
-00044524,0,postgraduate,Europe,England
-00077579,0,school,Europe,England
-00047150,0,school,North America,Scotland
-00020742,0,postgraduate,North America,England
-00043110,0,other,Oceania,England
-00015765,0,school,Africa,England
-00044991,0,other,Europe,England
-00023614,0,postgraduate,Asia,England
-00030103,0,school,North America,England
-00049262,0,undergraduate,Europe,England
-00088937,0,school,Europe,England
-00043075,0,school,Europe,England
-00052689,0,undergraduate,Oceania,England
-00012710,0,school,Asia,England
-00044708,0,undergraduate,North America,England
-00020101,0,school,North America,England
-00041433,0,school,Africa,Scotland
-00029008,0,undergraduate,Asia,England
-00011877,0,school,Asia,England
-00012098,0,school,Africa,England
-00088014,0,other,Africa,England
-00088196,0,school,North America,England
-00097228,0,postgraduate,Asia,England
-00062477,0,school,North America,England
-00026747,0,other,South America,England
-00090173,0,school,Asia,England
-00014274,0,other,Europe,England
-00026435,1,school,Asia,England
-00087940,0,school,Asia,England
-00091517,0,postgraduate,Europe,England
-00066615,0,postgraduate,Africa,Scotland
-00035491,0,undergraduate,Oceania,England
-00097286,0,school,Africa,Scotland
-00010066,0,school,Oceania,England
-00047257,0,undergraduate,Africa,England
-00061981,0,undergraduate,Europe,England
-00064538,0,undergraduate,Europe,England
-00079360,0,undergraduate,Europe,England
-00090246,0,other,Europe,England
-00076973,0,school,Africa,England
-00055772,1,undergraduate,Asia,England
-00039420,0,school,Oceania,England
-00013684,0,school,North America,England
-00054039,0,school,Europe,England
-00085108,0,undergraduate,Africa,England
-00043148,0,school,Asia,Scotland
-00019362,0,undergraduate,North America,England
-00098145,0,undergraduate,Asia,England
-00071434,0,postgraduate,Africa,Scotland
-00037011,0,school,Oceania,England
-00030840,0,school,Africa,England
-00029924,0,school,Asia,England
-00043420,0,other,Oceania,England
-00051203,0,undergraduate,Oceania,England
-00076047,0,school,Asia,England
-00033165,0,school,Asia,Scotland
-00027661,0,postgraduate,North America,England
-00060217,0,postgraduate,North America,England
-00016007,0,undergraduate,Europe,England
-00092135,0,school,Africa,England
-00018880,0,school,Africa,England
-00051480,0,school,Asia,Scotland
-00011957,0,undergraduate,Africa,England
-00036168,0,school,Africa,England
-00067294,0,postgraduate,Africa,England
-00090864,0,school,South America,England
-00073525,0,school,Africa,England
-00066759,0,school,Europe,England
-00088135,0,postgraduate,North America,England
-00099686,0,postgraduate,Africa,England
-00062155,0,school,North America,England
-00058719,0,school,Asia,England
-00067055,0,postgraduate,North America,England
-00062087,0,undergraduate,Europe,England
-00083575,0,school,Europe,England
-00074589,0,school,Asia,England
-00055540,0,other,Oceania,England
-00045344,0,postgraduate,Asia,England
-00085014,0,school,Oceania,England
-00099282,0,undergraduate,Europe,Scotland
-00034629,0,school,Africa,England
-00038805,0,school,Asia,England
-00044315,0,postgraduate,South America,England
-00092042,0,postgraduate,Asia,England
-00046522,0,undergraduate,Africa,Scotland
-00096816,0,school,South America,Scotland
-00023279,0,school,North America,Scotland
-00066306,0,postgraduate,Asia,England
-00045126,0,undergraduate,Africa,Scotland
-00058090,0,school,Oceania,Scotland
-00068540,0,postgraduate,Europe,England
-00056347,0,undergraduate,South America,Scotland
-00083365,0,undergraduate,Africa,England
-00041608,0,school,Europe,England
-00062761,0,other,Europe,England
-00077702,0,undergraduate,Europe,England
-00087689,0,school,North America,England
-00031928,0,undergraduate,Africa,England
-00099228,0,postgraduate,Europe,England
-00097542,0,school,Europe,England
-00061509,0,postgraduate,Asia,England
-00041421,0,undergraduate,Asia,England
-00067306,0,school,Europe,England
-00016502,0,school,North America,England
-00087149,0,postgraduate,Oceania,England
-00036807,0,school,Europe,England
-00032114,1,undergraduate,Oceania,England
-00041906,0,other,Europe,Scotland
-00037896,0,school,Africa,England
-00065913,0,school,Oceania,England
-00082892,0,undergraduate,North America,England
-00078484,0,other,Europe,England
-00088588,0,school,South America,England
-00060234,0,school,Africa,England
-00057062,0,school,Europe,England
-00031587,0,school,South America,England
-00093711,0,school,Europe,England
-00018853,0,postgraduate,Asia,England
-00053228,0,other,Europe,Scotland
-00058337,0,school,Europe,England
-00032612,0,school,Europe,England
-00056899,0,postgraduate,Oceania,England
-00076866,0,school,Europe,England
-00051279,0,other,Asia,England
-00085726,0,postgraduate,Oceania,England
-00040786,0,school,Europe,England
-00027909,0,undergraduate,North America,Scotland
-00047071,0,undergraduate,North America,England
-00058535,0,undergraduate,Oceania,England
-00015070,0,school,Europe,England
-00063352,0,school,Africa,England
-00050774,0,school,Africa,England
-00038376,0,school,Europe,England
-00074424,0,school,North America,Wales
-00080961,0,other,Europe,England
-00042322,0,school,Asia,Scotland
-00033979,0,postgraduate,Africa,England
-00017598,0,school,Asia,England
-00041699,0,school,Asia,England
-00084596,0,postgraduate,Oceania,England
-00071296,0,undergraduate,Europe,England
-00076558,0,postgraduate,North America,England
-00025507,0,school,South America,England
-00010588,0,undergraduate,North America,England
-00021065,0,other,Europe,England
-00096107,1,postgraduate,North America,England
-00051947,0,undergraduate,Africa,Scotland
-00094006,0,school,Europe,England
-00021213,0,school,Asia,England
-00069144,0,undergraduate,Europe,England
-00093974,0,other,Europe,England
-00012529,0,school,Asia,Scotland
-00044923,0,other,Oceania,England
-00034511,0,undergraduate,Africa,England
-00098670,0,school,North America,England
-00016298,0,school,South America,England
-00054084,0,school,Africa,England
-00015396,0,undergraduate,Asia,England
-00078981,0,school,Africa,England
-00080078,0,undergraduate,Africa,England
-00077953,0,postgraduate,Africa,England
-00069461,1,other,Europe,England
-00057107,0,school,North America,England
-00068429,0,undergraduate,Oceania,England
-00066669,1,school,Africa,England
-00087868,0,school,Europe,Scotland
-00034365,0,school,Africa,England
-00043138,0,school,North America,England
-00053067,0,school,Africa,Scotland
-00068180,0,postgraduate,Oceania,England
-00057803,0,postgraduate,North America,England
-00035698,0,postgraduate,Asia,England
-00085804,0,other,Europe,Scotland
-00011639,0,other,North America,Scotland
-00035139,0,school,Asia,England
-00079250,0,undergraduate,Asia,Scotland
-00078355,0,school,North America,England
-00078906,1,postgraduate,Africa,England
-00030893,0,postgraduate,Africa,Scotland
-00014964,0,school,Africa,Scotland
-00041093,0,school,Africa,England
-00022163,0,school,Europe,England
-00096187,0,school,Europe,Scotland
-00045681,0,postgraduate,Africa,England
-00017429,0,school,Oceania,England
-00025271,0,postgraduate,Africa,England
-00051443,0,undergraduate,Europe,Scotland
-00011710,0,other,South America,England
-00027937,1,school,Europe,England
-00092409,0,school,Africa,Scotland
-00016915,0,school,Oceania,England
-00034012,0,undergraduate,Asia,England
-00042704,0,postgraduate,North America,England
-00048563,0,school,South America,Scotland
-00050542,0,other,Asia,England
-00086323,0,postgraduate,Europe,England
-00013864,0,other,Oceania,England
-00073947,0,other,Asia,England
-00047290,0,undergraduate,Asia,Scotland
-00045383,0,undergraduate,Africa,England
-00021506,0,school,South America,England
-00068979,0,school,North America,England
-00016800,0,school,Oceania,England
-00015622,0,school,Asia,England
-00092766,0,school,South America,England
-00086733,0,school,Africa,England
-00038356,1,school,Africa,England
-00056371,0,school,Asia,England
-00019791,0,school,Europe,Scotland
-00074847,0,school,North America,Scotland
-00011688,0,school,Asia,Scotland
-00092121,0,school,Asia,England
-00013239,0,undergraduate,Europe,England
-00063294,0,school,Asia,England
-00016163,0,school,North America,England
-00073693,0,school,Europe,England
-00022002,0,other,Africa,England
-00059062,0,postgraduate,Oceania,England
-00028579,0,school,Africa,England
-00030405,0,undergraduate,Africa,England
-00019552,0,school,Africa,England
-00098083,0,school,Asia,England
-00022023,0,school,Africa,Scotland
-00067559,0,school,Oceania,England
-00042554,0,school,Europe,England
-00031854,0,other,Asia,England
-00059509,0,undergraduate,Asia,England
-00089583,0,school,North America,England
-00065413,0,school,Africa,England
-00093577,0,undergraduate,North America,England
-00074514,0,school,North America,England
-00078487,0,school,Africa,England
-00083525,0,school,Europe,England
-00092491,0,other,Asia,England
-00067858,0,other,Europe,England
-00046171,0,undergraduate,North America,England
-00055700,0,school,Europe,England
-00025136,0,school,Africa,England
-00017205,0,school,Europe,England
-00016171,0,school,Antarctica,England
-00058840,0,school,Africa,England
-00018965,1,undergraduate,Oceania,England
-00010166,0,postgraduate,Asia,England
-00014080,0,school,Asia,England
-00098940,0,undergraduate,Europe,England
-00055595,0,undergraduate,Africa,England
-00041933,0,postgraduate,Africa,England
-00075346,0,postgraduate,North America,England
-00056928,0,undergraduate,Africa,England
-00041714,0,school,Europe,England
-00027198,0,undergraduate,Europe,England
-00094438,0,school,Europe,England
-00074429,0,school,Oceania,England
-00084544,0,school,Africa,Scotland
-00058420,0,postgraduate,Europe,England
-00068988,0,school,South America,England
-00020898,0,postgraduate,Asia,England
-00050042,0,school,North America,England
-00017263,1,postgraduate,Oceania,England
-00071183,0,school,North America,England
-00096523,0,other,Europe,England
-00028611,1,school,North America,England
-00066137,0,school,Asia,England
-00085948,0,school,Asia,England
-00082803,0,school,Europe,England
-00063989,0,school,Asia,England
-00067636,0,school,Oceania,England
-00097090,0,school,Africa,England
-00053648,0,school,Europe,England
-00021211,0,postgraduate,Africa,England
-00056445,0,school,Africa,England
-00026229,0,school,North America,Scotland
-00094395,0,school,North America,Scotland
-00051778,0,postgraduate,Oceania,England
-00069682,0,undergraduate,North America,England
-00033164,0,school,South America,Wales
-00052392,0,undergraduate,North America,England
-00084671,0,school,Asia,England
-00028908,0,school,Asia,England
-00029984,0,postgraduate,Asia,England
-00011145,1,school,Africa,England
-00073890,0,undergraduate,Europe,England
-00034672,0,school,Africa,England
-00082581,0,postgraduate,Africa,England
-00019349,0,postgraduate,Africa,England
-00026241,0,school,North America,England
-00013434,0,school,Africa,England
-00032934,0,school,Europe,England
-00012107,0,undergraduate,Europe,England
-00054881,0,school,Europe,England
-00087883,0,school,Asia,England
-00062180,0,school,Oceania,England
-00036946,0,school,Oceania,England
-00013494,0,school,Europe,Scotland
-00048133,0,school,Africa,England
-00045467,0,postgraduate,Europe,England
-00081693,0,school,Africa,England
-00032370,0,other,Africa,Scotland
-00029697,0,school,Europe,Overseas territories
-00049882,0,postgraduate,Africa,England
-00055749,0,undergraduate,Europe,England
-00078622,0,school,Oceania,England
-00028902,0,school,Europe,Scotland
-00014218,0,school,Asia,England
-00076903,0,school,Europe,England
-00014143,0,undergraduate,Asia,England
-00079441,0,postgraduate,Africa,England
-00046011,0,school,Europe,Scotland
-00045576,0,school,Europe,England
-00094870,0,undergraduate,South America,England
-00029247,0,school,Asia,England
-00091141,0,school,Asia,England
-00087780,0,school,Oceania,England
-00078516,0,postgraduate,Africa,England
-00097081,0,postgraduate,Europe,England
-00021611,0,school,South America,England
-00021708,0,school,Asia,Scotland
-00078500,0,school,Oceania,England
-00072780,0,undergraduate,Africa,Scotland
-00016034,0,school,Africa,England
-00086572,0,school,Africa,Scotland
-00061806,1,school,Asia,Scotland
-00047105,0,postgraduate,Europe,England
-00018171,0,school,Asia,Scotland
-00063295,0,school,Europe,England
-00083333,0,other,South America,England
-00019603,0,undergraduate,South America,England
-00096581,0,school,Africa,England
-00099514,0,school,North America,England
-00076748,0,school,Africa,Scotland
-00059030,0,school,Africa,England
-00079577,0,school,Europe,England
-00076816,0,other,Asia,England
-00023215,0,school,North America,Wales
-00055844,0,school,North America,England
-00028659,0,school,Europe,England
-00051975,0,school,Europe,Scotland
-00097892,0,school,North America,England
-00072190,0,school,Europe,England
-00022557,0,postgraduate,Africa,England
-00083745,0,undergraduate,Europe,England
-00035610,0,undergraduate,Asia,England
-00081564,0,school,Oceania,Scotland
-00050843,0,school,Asia,England
-00065750,0,undergraduate,Europe,England
-00024750,0,school,Africa,England
-00032450,0,postgraduate,Europe,England
-00056694,0,school,Europe,England
-00055879,0,school,Asia,England
-00070018,0,school,North America,England
-00045917,0,school,Asia,England
-00037584,0,postgraduate,Asia,England
-00090627,0,school,Europe,England
-00065397,0,school,Africa,England
-00050035,0,other,Asia,England
-00056695,0,school,Africa,England
-00089323,0,school,Africa,England
-00043181,0,undergraduate,Africa,Scotland
-00035319,0,postgraduate,Europe,England
-00039754,0,undergraduate,Africa,England
-00059567,0,postgraduate,North America,England
-00023532,0,school,North America,Scotland
-00060742,0,school,Europe,England
-00035624,0,undergraduate,Oceania,England
-00085485,0,school,Africa,England
-00088365,0,undergraduate,Europe,Scotland
-00031912,0,school,Asia,England
-00050393,1,other,Africa,England
-00047270,0,school,Oceania,England
-00016296,0,school,North America,England
-00064871,0,school,South America,England
-00063906,0,school,Oceania,England
-00054923,0,school,Europe,England
-00028653,0,undergraduate,South America,England
-00039685,0,postgraduate,Africa,England
-00076150,0,school,Oceania,England
-00067581,0,undergraduate,Africa,England
-00040201,0,school,Africa,England
-00085668,0,undergraduate,Asia,England
-00010418,0,school,North America,England
-00038699,0,undergraduate,Oceania,England
-00088827,0,school,Europe,England
-00080962,1,undergraduate,Europe,England
-00031990,0,school,Africa,England
-00017954,0,other,North America,England
-00019015,0,undergraduate,Asia,England
-00071881,0,postgraduate,North America,England
-00038639,0,school,Africa,England
-00022359,0,school,Asia,England
-00013737,0,school,Asia,England
-00096996,0,school,Africa,England
-00095420,0,postgraduate,Europe,England
-00083314,0,school,Asia,England
-00077392,0,school,Oceania,England
-00099624,0,other,North America,England
-00062411,0,undergraduate,Oceania,Scotland
-00093934,0,undergraduate,South America,Scotland
-00059877,0,undergraduate,Asia,England
-00017917,0,undergraduate,Africa,England
-00022650,0,postgraduate,Europe,England
-00099804,1,postgraduate,Africa,England
-00033088,0,other,Oceania,England
-00030211,0,school,South America,England
-00019713,0,school,North America,England
-00045816,0,postgraduate,Europe,England
-00080497,0,postgraduate,Europe,Northern Ireland
-00078944,0,school,Africa,England
-00061213,0,school,Asia,England
-00063073,0,school,Africa,England
-00084603,0,postgraduate,South America,England
-00070910,0,other,Europe,England
-00072963,0,other,Europe,England
-00098437,0,school,Europe,Scotland
-00029405,0,other,North America,England
-00086179,0,school,Oceania,Scotland
-00092570,0,undergraduate,Europe,England
-00021354,0,school,Asia,England
-00018020,0,undergraduate,Europe,England
-00023569,0,other,Asia,England
-00015080,0,school,Europe,England
-00080901,0,school,Oceania,England
-00070593,0,school,Asia,England
-00087134,0,undergraduate,Asia,England
-00058790,0,undergraduate,Asia,Wales
-00032743,0,postgraduate,Oceania,England
-00047095,0,school,North America,Wales
-00096763,0,school,Africa,England
-00029673,0,school,Asia,England
-00020618,0,undergraduate,Europe,England
-00063026,0,school,Asia,England
-00071482,0,school,Africa,Scotland
-00063356,0,undergraduate,Europe,England
-00090709,0,undergraduate,South America,England
-00080429,0,school,North America,Wales
-00095940,0,school,Africa,England
-00045301,0,postgraduate,Africa,Scotland
-00062657,0,other,North America,England
-00079753,0,other,Europe,England
-00088179,1,undergraduate,North America,England
-00086510,0,school,Africa,England
-00020528,0,postgraduate,Europe,England
-00033675,0,undergraduate,Europe,Scotland
-00014500,0,school,Africa,England
-00050649,0,school,Africa,England
-00097398,0,undergraduate,Oceania,Wales
-00022166,0,school,Asia,England
-00064322,0,school,Europe,England
-00049028,0,school,Africa,England
-00035488,0,undergraduate,North America,England
-00022297,0,other,Europe,Scotland
-00084308,0,school,Asia,England
-00054836,0,undergraduate,South America,England
-00025393,0,school,Europe,England
-00030418,0,school,Africa,Scotland
-00027899,0,school,Asia,England
-00043604,0,postgraduate,Africa,England
-00072669,0,other,Europe,England
-00055003,0,undergraduate,Oceania,England
-00096389,0,school,Africa,England
-00078740,0,postgraduate,Africa,England
-00098512,0,undergraduate,Europe,England
-00063395,0,other,Asia,England
-00067907,0,school,Europe,England
-00022830,0,school,Africa,England
-00048782,0,school,Africa,England
-00082154,0,undergraduate,Oceania,England
-00016904,0,postgraduate,South America,England
-00052845,0,undergraduate,Oceania,England
-00031411,0,school,Oceania,England
-00065501,0,school,Europe,England
-00061705,0,school,Europe,England
-00077445,1,undergraduate,Asia,Wales
-00078902,0,postgraduate,Oceania,England
-00077607,0,undergraduate,South America,England
-00012779,0,school,Asia,England
-00060688,0,postgraduate,Asia,England
-00076130,0,undergraduate,Africa,England
-00021727,1,school,Asia,Scotland
-00047864,0,undergraduate,Oceania,England
-00095921,0,postgraduate,Asia,England
-00036746,0,school,Africa,England
-00071103,0,school,Asia,England
-00051310,0,postgraduate,North America,England
-00053318,0,school,Europe,England
-00068128,0,undergraduate,Africa,England
-00012217,0,undergraduate,Europe,England
-00063913,0,school,South America,England
-00039555,0,school,South America,England
-00069957,0,postgraduate,Oceania,England
-00094571,0,school,Europe,England
-00021262,0,school,Europe,Scotland
-00026689,0,school,South America,England
-00027862,0,postgraduate,Europe,England
-00053380,0,undergraduate,North America,England
-00042645,0,school,Africa,England
-00018161,0,school,Africa,Scotland
-00067444,1,other,Europe,England
-00098114,1,other,North America,England
-00018421,0,postgraduate,Africa,Scotland
-00054070,0,postgraduate,North America,England
-00039227,0,other,Oceania,England
-00040825,0,school,Africa,Scotland
-00094199,0,undergraduate,Africa,England
-00077651,0,postgraduate,North America,England
-00030414,0,school,Asia,England
-00044535,0,school,Africa,England
-00058296,0,undergraduate,Africa,England
-00067961,0,undergraduate,Africa,England
-00065736,0,school,Asia,Scotland
-00020616,0,school,Europe,England
-00051844,0,other,Europe,Scotland
-00019469,0,school,Europe,England
-00048911,0,undergraduate,Africa,England
-00048758,0,school,Europe,England
-00093805,0,school,Africa,England
-00040034,0,postgraduate,Europe,England
-00097236,0,undergraduate,Asia,England
-00014233,0,postgraduate,Africa,England
-00046112,0,undergraduate,South America,England
-00050865,0,other,Europe,England
-00049841,0,undergraduate,North America,England
-00052083,0,school,North America,England
-00085998,0,undergraduate,Oceania,England
-00099217,0,school,Europe,England
-00076148,0,school,North America,England
-00038890,0,school,North America,England
-00022997,0,postgraduate,South America,England
-00030017,0,school,South America,England
-00027656,0,school,Africa,England
-00037405,0,postgraduate,Europe,England
-00014996,1,undergraduate,Africa,Scotland
-00081231,0,other,Asia,England
-00029342,0,undergraduate,Africa,England
-00094358,0,school,Africa,England
-00091060,0,undergraduate,Africa,England
-00023565,0,school,Africa,England
-00016362,0,postgraduate,Europe,England
-00074142,0,school,Asia,England
-00069199,0,postgraduate,Europe,England
-00037131,0,school,Oceania,England
-00060348,0,postgraduate,Oceania,England
-00035171,0,undergraduate,Asia,England
-00057994,0,school,Africa,England
-00084240,0,postgraduate,Europe,England
-00081455,1,postgraduate,Asia,Scotland
-00093691,0,undergraduate,Europe,England
-00096667,0,other,Asia,England
-00084120,0,school,Europe,England
-00036297,0,school,North America,England
-00068397,0,school,North America,England
-00071130,0,school,Asia,England
-00079562,0,school,Asia,England
-00044870,0,postgraduate,Asia,England
-00074960,0,school,North America,Scotland
-00052888,0,undergraduate,Africa,Scotland
-00088831,0,undergraduate,Europe,Scotland
-00086711,0,postgraduate,Africa,England
-00059159,0,school,Oceania,England
-00092415,0,school,Europe,England
-00056543,0,school,Africa,England
-00070590,0,school,South America,England
-00092213,0,postgraduate,Asia,England
-00088161,0,undergraduate,Asia,England
-00084024,0,school,Africa,England
-00084743,0,undergraduate,Oceania,England
-00075279,0,school,Africa,England
-00036550,0,undergraduate,Asia,Scotland
-00078209,1,school,Europe,Scotland
-00029472,0,other,North America,England
-00022343,0,other,Asia,England
-00084370,0,school,South America,England
-00063089,0,school,Africa,England
-00058810,0,school,Africa,England
-00077429,0,undergraduate,Africa,England
-00066827,0,other,Oceania,England
-00041704,0,other,Asia,England
-00071298,1,school,Asia,England
-00028970,0,undergraduate,South America,England
-00076946,0,postgraduate,Oceania,England
-00079624,0,undergraduate,Asia,England
-00026955,0,undergraduate,North America,Scotland
-00042929,0,school,South America,England
-00015412,0,school,North America,England
-00022699,1,other,Europe,England
-00069509,0,school,Africa,England
-00074854,0,school,Asia,England
-00086343,0,other,Asia,England
-00045094,0,school,Africa,England
-00066170,0,undergraduate,North America,England
-00021404,0,postgraduate,Asia,England
-00095422,0,other,North America,England
-00032936,0,school,North America,Scotland
-00049874,0,school,Africa,England
-00076313,0,school,Europe,England
-00028092,0,postgraduate,South America,England
-00056911,0,postgraduate,Europe,England
-00092829,0,postgraduate,North America,England
-00099320,0,school,North America,England
-00044522,0,undergraduate,Oceania,England
-00090697,0,school,Europe,England
-00086817,0,postgraduate,North America,England
-00037490,0,undergraduate,Europe,England
-00076499,0,undergraduate,Europe,England
-00085847,0,school,Oceania,Scotland
-00069654,0,school,North America,England
-00022041,0,undergraduate,Africa,England
-00047451,0,school,Europe,England
-00095906,0,other,Europe,Scotland
-00017750,1,undergraduate,North America,England
-00033800,0,other,Oceania,England
-00025684,0,school,Europe,England
-00023683,0,postgraduate,North America,England
-00097376,0,other,Europe,England
-00056930,0,school,Africa,England
-00020777,0,undergraduate,Asia,England
-00010808,0,school,North America,England
-00076147,0,school,Asia,England
-00068362,0,school,Europe,England
-00052754,0,school,Asia,Scotland
-00013027,0,undergraduate,Asia,England
-00079956,0,other,South America,England
-00025320,0,postgraduate,Asia,England
-00069715,0,school,North America,England
-00070272,0,school,Asia,Wales
-00040313,0,school,Africa,England
-00031110,0,other,North America,England
-00062772,0,school,Africa,England
-00039565,0,undergraduate,Europe,England
-00027044,0,school,Africa,England
-00067723,0,school,South America,England
-00012956,0,undergraduate,Asia,England
-00064210,0,postgraduate,South America,England
-00078057,0,school,Africa,England
-00033509,0,school,Oceania,England
-00087251,0,postgraduate,Oceania,England
-00085132,1,undergraduate,Asia,England
-00031718,0,school,Africa,England
-00061038,0,school,Europe,England
-00030427,0,undergraduate,Asia,England
-00010078,0,school,Asia,England
-00096058,0,school,Asia,England
-00021155,0,undergraduate,North America,England
-00010425,0,undergraduate,Africa,Scotland
-00044044,0,school,Asia,England
-00068678,0,school,Europe,England
-00086581,0,undergraduate,Asia,England
-00011304,0,other,Europe,England
-00054567,0,school,Asia,England
-00079339,0,school,South America,England
-00091007,0,postgraduate,Africa,England
-00070335,0,undergraduate,Europe,Scotland
-00019421,0,postgraduate,North America,England
-00098554,0,postgraduate,North America,England
-00044975,0,school,Africa,England
-00036459,0,school,Europe,England
-00064126,0,undergraduate,Europe,England
-00074827,0,school,Africa,England
-00088234,0,school,Europe,England
-00075344,1,postgraduate,Oceania,England
-00047280,0,undergraduate,Asia,England
-00058249,0,undergraduate,Oceania,England
-00053302,0,postgraduate,Africa,England
-00014089,0,postgraduate,Asia,England
-00076501,0,school,Asia,England
-00010080,0,school,Africa,England
-00010439,0,undergraduate,Asia,England
-00070328,0,school,Africa,England
-00050564,0,postgraduate,Europe,England
-00021124,0,school,Europe,England
-00093124,0,undergraduate,Oceania,England
-00026749,0,school,Oceania,England
-00048219,0,school,Africa,England
-00039884,0,undergraduate,Europe,England
-00033057,0,school,North America,England
-00054911,0,postgraduate,Asia,England
-00036510,0,undergraduate,South America,England
-00019665,0,school,Africa,England
-00078704,0,postgraduate,Europe,Scotland
-00050489,0,school,Oceania,England
-00035242,0,school,Africa,England
-00054086,0,school,Asia,Scotland
-00089680,0,other,Africa,Wales
-00025327,0,other,South America,England
-00021825,0,undergraduate,Europe,Wales
-00057602,0,other,Oceania,England
-00087504,0,undergraduate,Oceania,Wales
-00067668,0,undergraduate,South America,England
-00022382,0,school,Asia,England
-00012502,0,school,North America,England
-00065001,0,school,North America,England
-00098926,0,school,Africa,England
-00048558,0,other,Europe,England
-00024108,0,undergraduate,Europe,Scotland
-00036311,0,postgraduate,Europe,Northern Ireland
-00087005,0,undergraduate,Asia,England
-00089280,0,school,North America,England
-00056410,0,postgraduate,Africa,England
-00035991,0,postgraduate,Asia,England
-00068601,0,school,Africa,England
-00077509,0,postgraduate,Africa,England
-00093387,0,school,Africa,England
-00053719,0,postgraduate,Africa,England
-00036007,0,other,Asia,England
-00051703,0,school,Asia,England
-00065559,0,school,Europe,England
-00020262,0,school,Asia,England
-00014506,0,school,Europe,England
-00093309,0,school,Asia,England
-00036486,0,school,Oceania,England
-00040117,0,school,North America,England
-00057864,0,school,North America,England
-00075177,0,undergraduate,Europe,England
-00032312,0,school,Oceania,England
-00017623,0,school,Africa,Scotland
-00032973,0,postgraduate,Oceania,England
-00054481,0,school,North America,England
-00040079,0,school,Europe,England
-00056035,0,undergraduate,Oceania,England
-00054389,0,school,Europe,Scotland
-00083236,0,school,Europe,England
-00092284,0,undergraduate,Africa,England
-00057533,0,undergraduate,Europe,England
-00022415,0,other,Africa,England
-00087179,0,undergraduate,Europe,England
-00012585,0,postgraduate,Europe,England
-00091265,0,school,North America,England
-00082457,0,postgraduate,North America,England
-00085688,0,undergraduate,Europe,England
-00013602,0,other,North America,England
-00013514,0,undergraduate,Oceania,England
-00094824,0,undergraduate,Asia,Scotland
-00047169,0,undergraduate,Africa,England
-00075559,0,school,Asia,England
-00081472,0,other,Asia,England
-00034752,1,school,Oceania,England
-00078200,0,school,Europe,England
-00099669,0,other,Asia,England
-00060538,0,undergraduate,Africa,England
-00037792,0,school,Europe,England
-00070833,0,postgraduate,Asia,England
-00064219,0,other,North America,England
-00030404,0,school,Oceania,England
-00067779,0,undergraduate,Asia,England
-00053459,0,school,North America,England
-00073579,0,school,Asia,England
-00082001,0,school,Asia,England
-00043727,0,postgraduate,Africa,England
-00028870,0,undergraduate,Europe,England
-00038625,0,postgraduate,Asia,England
-00039859,0,undergraduate,Oceania,England
-00093030,0,school,Oceania,Scotland
-00054487,0,school,Europe,England
-00054215,0,school,Asia,England
-00017576,0,undergraduate,Oceania,England
-00077386,0,other,Africa,England
-00037428,0,school,Oceania,England
-00076046,0,school,Asia,England
-00075922,0,undergraduate,Europe,England
-00018423,0,school,Oceania,England
-00078937,0,school,Asia,England
-00061957,0,school,North America,England
-00083764,0,school,Europe,England
-00096994,0,other,North America,England
-00066503,1,school,Oceania,England
-00072731,0,school,North America,England
-00034933,0,school,Asia,Wales
-00083973,0,other,Europe,England
-00054255,0,school,Africa,Scotland
-00039437,0,undergraduate,Europe,England
-00027655,0,postgraduate,North America,England
+sid,continent_of_birth,UK_country,cc_status,education_level
+7753338,Asia,England,0,postgraduate
+3293855,Oceania,England,0,school
+3988568,South America,England,0,undergraduate
+3406793,Africa,England,0,school
+2729863,South America,England,0,school
+7063036,South America,England,0,other
+6642148,Oceania,England,0,school
+3436914,North America,England,0,other
+8458121,Oceania,England,0,school
+3127432,North America,England,0,undergraduate
+6767484,Oceania,Scotland,0,school
+1153878,South America,England,0,undergraduate
+8130339,North America,England,1,school
+1220417,Africa,England,0,school
+6436199,Asia,England,0,school
+6911796,Asia,England,0,school
+1669683,Oceania,England,0,postgraduate
+2526196,Asia,England,0,undergraduate
+2691458,North America,England,0,school
+7613712,Oceania,England,0,undergraduate
+3032066,Asia,England,0,undergraduate
+3219320,Africa,England,0,school
+8634011,Asia,England,0,school
+4274428,Asia,England,0,school
+6059413,North America,England,0,postgraduate
+8729789,Oceania,Scotland,0,school
+1260143,Asia,England,0,school
+7771228,Europe,England,0,school
+1831172,North America,England,0,school
+4367437,Africa,Scotland,0,school
+5213794,Europe,England,0,postgraduate
+9026199,Africa,England,0,other
+9345317,Europe,England,0,school
+1107455,North America,England,1,school
+9563749,Europe,Scotland,0,school
+2110396,Africa,England,0,school
+7933742,North America,England,0,postgraduate
+9581293,Africa,England,0,school
+3991438,South America,England,0,other
+7079830,Africa,England,0,school
+1117586,Asia,Scotland,0,school
+2178185,South America,England,0,postgraduate
+9895399,Europe,England,0,other
+8239223,Europe,Overseas territories,0,school
+9454690,Europe,England,0,other
+7277476,Europe,England,0,school
+9389523,Oceania,England,0,other
+8173791,Asia,England,0,school
+3254544,Africa,Scotland,0,school
+6531867,North America,Scotland,0,other
+5312706,Asia,England,1,school
+6743175,North America,England,0,school
+5478576,Asia,England,0,postgraduate
+9479830,North America,England,1,school
+3951288,Africa,England,0,school
+3966643,Europe,England,0,school
+2924129,Europe,England,0,school
+4419833,Oceania,England,0,school
+1196516,Europe,England,0,school
+3894289,Oceania,England,0,undergraduate
+2086063,North America,England,0,postgraduate
+1655175,Europe,England,0,school
+2233182,North America,England,0,other
+8021076,Africa,England,0,other
+4639628,Asia,England,0,school
+8422419,Oceania,Scotland,0,undergraduate
+6351022,Asia,England,1,school
+7066307,Asia,England,0,school
+7855674,North America,England,0,school
+4874056,North America,England,0,school
+9205683,Oceania,England,0,undergraduate
+9161634,Europe,England,0,school
+4563445,Africa,England,0,school
+8179499,Asia,England,0,school
+1381776,Asia,England,0,school
+5357667,Africa,England,0,school
+8645963,Asia,England,0,school
+3890175,Africa,England,0,postgraduate
+9897200,Europe,Scotland,0,school
+9188299,Europe,Scotland,0,other
+7950807,South America,Wales,0,school
+8105834,Europe,England,0,school
+6029550,Asia,England,1,school
+5883669,North America,Scotland,0,school
+5745094,Africa,England,1,school
+4778804,Africa,England,0,school
+8223323,Oceania,Scotland,0,undergraduate
+5415887,Europe,Overseas territories,0,school
+1631430,Africa,England,0,postgraduate
+4268515,Asia,Scotland,0,school
+1310950,Africa,Scotland,0,school
+4163899,North America,England,0,school
+3212307,Asia,England,0,school
+7945319,Oceania,England,0,undergraduate
+1518138,Asia,England,0,school
+5437671,Europe,Scotland,1,school
+5760842,Europe,England,0,undergraduate
+7454642,Africa,England,0,postgraduate
+1635628,Africa,Scotland,0,school
+4333272,Asia,England,0,school
+4495945,South America,England,0,school
+9731372,Africa,England,0,postgraduate
+2977448,North America,Scotland,0,school
+9361790,Europe,England,0,undergraduate
+6599951,North America,England,0,school
+6121420,Africa,Scotland,0,undergraduate
+4906747,Africa,England,0,undergraduate
+4463852,Europe,England,0,undergraduate
+7120370,Europe,England,0,school
+4678327,Africa,England,0,other
+4409038,North America,England,0,school
+6068914,Europe,England,1,school
+9565252,Europe,England,0,postgraduate
+3603768,North America,England,0,other
+5477744,South America,England,0,undergraduate
+7999447,North America,England,0,school
+3165214,Europe,England,0,undergraduate
+7195804,Asia,England,0,school
+1052007,South America,England,0,undergraduate
+3687928,Asia,England,0,undergraduate
+7671311,Asia,England,0,school
+9860335,Africa,England,0,postgraduate
+2015106,Europe,England,0,school
+2246868,Asia,England,0,school
+7078051,Europe,England,0,school
+1368643,South America,England,0,school
+1309460,Oceania,England,0,undergraduate
+3353215,Europe,England,0,postgraduate
+8481037,Asia,England,0,school
+7851926,Africa,England,0,undergraduate
+7927130,Oceania,England,0,undergraduate
+8354550,Africa,Scotland,0,undergraduate
+4353780,Europe,Scotland,0,school
+8124327,Asia,England,0,other
+9742784,Asia,England,0,school
+7073676,Africa,England,0,school
+3491573,North America,England,0,school
+5455242,South America,England,0,school
+8095419,Europe,Scotland,0,postgraduate
+1688680,Asia,England,0,other
+9486977,Europe,England,0,school
+1417754,Oceania,England,0,postgraduate
+3546658,Asia,England,0,school
+2734654,Africa,England,0,school
+1651350,Oceania,England,0,school
+8016108,Africa,England,0,school
+1493220,North America,England,0,school
+3303586,Asia,England,0,school
+4745090,Europe,England,0,other
+2575454,Africa,England,0,postgraduate
+8332997,Africa,England,0,school
+8318858,Europe,Scotland,0,other
+7099769,Asia,England,0,school
+4147296,Africa,Scotland,0,undergraduate
+4241808,Asia,England,0,school
+5804292,Africa,Scotland,0,other
+6836308,Asia,England,0,postgraduate
+9080919,Europe,Wales,0,undergraduate
+5240704,Oceania,England,0,school
+9468795,Africa,England,0,undergraduate
+1840639,Europe,England,0,school
+1380406,Africa,Wales,0,other
+8223966,Africa,England,0,school
+5683131,Europe,Scotland,0,postgraduate
+9444856,Oceania,England,0,school
+5963796,Africa,England,0,other
+5658800,North America,England,0,school
+9859036,Europe,England,1,other
+9528941,Oceania,England,0,postgraduate
+6020365,Asia,Scotland,0,postgraduate
+7501078,Europe,England,0,school
+1552023,Asia,England,0,school
+7028189,Europe,Scotland,0,undergraduate
+7406733,Africa,England,0,postgraduate
+4605831,Asia,England,0,other
+4580246,North America,England,0,postgraduate
+2033578,South America,England,0,school
+1652139,South America,Scotland,0,undergraduate
+6719710,Asia,England,0,other
+7231207,Oceania,England,0,undergraduate
+6427157,Africa,England,0,school
+4250129,Europe,England,0,school
+6864517,Oceania,England,0,postgraduate
+9031267,North America,England,0,other
+5028877,Asia,England,0,undergraduate
+9323827,North America,Scotland,0,school
+8080937,Africa,England,0,postgraduate
+7548466,Asia,England,0,school
+9024466,Africa,England,0,school
+3660054,Oceania,England,0,postgraduate
+4629498,Asia,England,0,school
+8286523,South America,England,0,school
+9736383,Africa,England,1,school
+4657657,Europe,England,0,postgraduate
+7011896,North America,England,0,school
+8696516,Asia,England,0,postgraduate
+6925970,Antarctica,England,0,school
+8519080,South America,England,0,school
+7894534,Asia,England,1,other
+8415242,Oceania,England,0,postgraduate
+8532826,South America,England,0,school
+2229763,Africa,England,0,school
+6686677,South America,England,0,school
+2095968,Europe,England,0,postgraduate
+6771475,Europe,England,0,school
+4686963,North America,Scotland,0,school
+1701037,North America,England,0,postgraduate
+2488973,Oceania,England,0,other
+1201159,Africa,England,0,school
+2116885,Europe,England,0,other
+3029162,Asia,England,0,postgraduate
+5119615,North America,England,0,school
+5713446,Europe,England,0,undergraduate
+1961390,Europe,England,0,school
+4824054,Europe,England,0,school
+8866355,Oceania,England,0,undergraduate
+9130749,Asia,England,0,school
+9055012,North America,England,0,undergraduate
+8774978,North America,England,0,school
+7772930,Africa,Scotland,0,school
+3998914,Asia,England,0,undergraduate
+3074409,Asia,England,0,school
+1021795,Africa,England,0,school
+1746860,Africa,England,0,other
+3191878,North America,England,0,school
+4635175,Asia,England,0,postgraduate
+1373753,North America,England,0,school
+3574088,South America,England,0,other
+2983231,Asia,England,0,school
+4099032,Europe,England,0,other
+7509373,Asia,England,1,school
+5607851,Asia,England,0,school
+7108683,Europe,England,0,postgraduate
+4604615,Africa,Scotland,0,postgraduate
+2547782,Oceania,England,0,undergraduate
+4695136,Africa,Scotland,0,school
+2190499,Oceania,England,0,school
+5948243,Africa,England,0,undergraduate
+6269882,Europe,England,0,undergraduate
+3471954,Europe,England,0,undergraduate
+1445418,Europe,England,0,undergraduate
+4267435,Europe,England,0,other
+8111898,Africa,England,0,school
+5642751,Asia,England,1,undergraduate
+7943768,Oceania,England,0,school
+8789294,North America,England,0,school
+6856485,Europe,England,0,school
+2234968,Africa,England,0,undergraduate
+9012248,Asia,Scotland,0,school
+5741883,North America,England,0,undergraduate
+7612394,Asia,England,0,undergraduate
+1578428,Africa,Scotland,0,postgraduate
+3611129,Oceania,England,0,school
+6346782,Africa,England,0,school
+5271984,Asia,England,0,school
+2747508,Oceania,England,0,other
+4876527,Oceania,England,0,undergraduate
+2428498,Asia,England,0,school
+5597012,Asia,Scotland,0,school
+3435308,North America,England,0,postgraduate
+3554008,North America,England,0,postgraduate
+4332844,Europe,England,0,undergraduate
+6036692,Africa,England,0,school
+6225726,Africa,England,0,school
+9481685,Asia,Scotland,0,school
+7861578,Africa,England,0,undergraduate
+9784405,Africa,England,0,school
+4570524,Africa,England,0,postgraduate
+8580257,South America,England,0,school
+2298037,Africa,England,0,school
+2668969,Europe,England,0,school
+8615905,North America,England,0,postgraduate
+3092381,Africa,England,0,postgraduate
+3147506,North America,England,0,school
+6629219,Asia,England,0,school
+6408414,North America,England,0,postgraduate
+2502783,Europe,England,0,undergraduate
+2498429,Europe,England,0,school
+7470147,Asia,England,0,school
+8147767,Oceania,England,0,other
+4114215,Asia,England,0,postgraduate
+8777698,Oceania,England,0,school
+8037822,Europe,Scotland,0,undergraduate
+9103420,Africa,England,0,school
+1354770,Asia,England,0,school
+4123679,South America,England,0,postgraduate
+8346980,Asia,England,0,postgraduate
+6375812,Africa,Scotland,0,undergraduate
+3204879,South America,Scotland,0,school
+8933415,North America,Scotland,0,school
+4148697,Asia,England,0,postgraduate
+3294564,Africa,Scotland,0,undergraduate
+7992646,Oceania,Scotland,0,school
+8176079,Europe,England,0,postgraduate
+2608925,South America,Scotland,0,undergraduate
+5462775,Africa,England,0,undergraduate
+1642500,Europe,England,0,school
+2964325,Europe,England,0,other
+9910997,Europe,England,0,undergraduate
+7136010,North America,England,0,school
+2109243,Africa,England,0,undergraduate
+3307175,Europe,England,0,postgraduate
+2033429,Europe,England,0,school
+8180533,Asia,England,0,postgraduate
+6309231,Asia,England,0,undergraduate
+5411104,Europe,England,0,school
+1477995,North America,England,0,school
+2522836,Oceania,England,0,postgraduate
+6160708,Europe,England,0,school
+7848907,Oceania,England,1,undergraduate
+2476712,Europe,Scotland,0,other
+6711051,Africa,England,0,school
+6441866,Oceania,England,0,school
+9789874,North America,England,0,undergraduate
+7754697,Europe,England,0,other
+2924218,South America,England,0,school
+1652504,Africa,England,0,school
+2538344,Europe,England,0,school
+6524175,South America,England,0,school
+2679350,Europe,England,0,school
+5958249,Asia,England,0,postgraduate
+3674957,Europe,Scotland,0,other
+3751101,Europe,England,0,school
+2653029,Europe,England,0,school
+1721831,Oceania,England,0,postgraduate
+1299458,Europe,England,0,school
+8107236,Asia,England,0,other
+4400444,Oceania,England,0,postgraduate
+8154119,Europe,England,0,school
+2070207,North America,Scotland,0,undergraduate
+5210448,North America,England,0,undergraduate
+4688822,Oceania,England,0,undergraduate
+6575109,Europe,England,0,school
+3059427,Africa,England,0,school
+9413848,Africa,England,0,school
+7875594,Europe,England,0,school
+4738118,North America,Wales,0,school
+5972204,Europe,England,0,other
+9268253,Asia,Scotland,0,school
+3361593,Africa,England,0,postgraduate
+6056680,Asia,England,0,school
+9458357,Asia,England,0,school
+6123357,Oceania,England,0,postgraduate
+2873957,Europe,England,0,undergraduate
+4528239,North America,England,0,postgraduate
+4283397,South America,England,0,school
+4702670,North America,England,0,undergraduate
+6002793,Europe,England,0,other
+4329916,North America,England,1,postgraduate
+1440853,Africa,Scotland,0,undergraduate
+8304350,Europe,England,0,school
+1406150,Asia,England,0,school
+4337792,Europe,England,0,undergraduate
+6561667,Europe,England,0,other
+5967035,Asia,Scotland,0,school
+5536495,Oceania,England,0,other
+9754745,Africa,England,0,undergraduate
+6851314,North America,England,0,school
+9500195,South America,England,0,school
+7046420,Africa,England,0,school
+3189254,Asia,England,0,undergraduate
+8765657,Africa,England,0,school
+9110347,Africa,England,0,undergraduate
+3348953,Africa,England,0,postgraduate
+9515900,Europe,England,1,other
+2683562,North America,England,0,school
+6781936,Oceania,England,0,undergraduate
+3236738,Africa,England,1,school
+8771892,Europe,Scotland,0,school
+6505667,Africa,England,0,school
+3466783,North America,England,0,school
+5713026,Africa,Scotland,0,school
+9536735,Oceania,England,0,postgraduate
+9597224,North America,England,0,postgraduate
+5649368,Asia,England,0,postgraduate
+1602866,Europe,Scotland,0,other
+1453867,North America,Scotland,0,other
+1562914,Asia,England,0,school
+5300899,Asia,Scotland,0,undergraduate
+5449488,North America,England,0,school
+7702336,Africa,England,1,postgraduate
+4055743,Africa,Scotland,0,postgraduate
+6312974,Africa,Scotland,0,school
+8659692,Africa,England,0,school
+1015711,Europe,England,0,school
+6485638,Europe,Scotland,0,school
+9225176,Africa,England,0,postgraduate
+5963694,Oceania,England,0,school
+2119787,Africa,England,0,postgraduate
+7608226,Europe,Scotland,0,undergraduate
+9255580,South America,England,0,other
+1444995,Europe,England,1,school
+2255772,Africa,Scotland,0,school
+3229437,Oceania,England,0,school
+7039814,Asia,England,0,undergraduate
+6463332,North America,England,0,postgraduate
+3336786,South America,Scotland,0,school
+1849353,Asia,England,0,other
+7091723,Europe,England,0,postgraduate
+7564935,Oceania,England,0,other
+8382247,Asia,England,0,other
+9866220,Asia,Scotland,0,undergraduate
+3823439,Africa,England,0,undergraduate
+8982627,South America,England,0,school
+9744656,North America,England,0,school
+4605328,Oceania,England,0,school
+2651023,Asia,England,0,school
+9058994,South America,England,0,school
+4761810,Africa,England,0,school
+2483221,Africa,England,1,school
+2581941,Asia,England,0,school
+3875194,Europe,Scotland,0,school
+6255479,North America,Scotland,0,school
+4744151,Asia,Scotland,0,school
+3190903,Asia,England,0,school
+9592520,Europe,England,0,undergraduate
+8428818,Asia,England,0,school
+7900586,North America,England,0,school
+8455319,Europe,England,0,school
+9740261,Africa,England,0,other
+3029720,Oceania,England,0,postgraduate
+2518399,Africa,England,0,school
+4332606,Africa,England,0,undergraduate
+9738828,Africa,England,0,school
+2066978,Asia,England,0,school
+9726223,Africa,Scotland,0,school
+7882696,Oceania,England,0,school
+2033493,Europe,England,0,school
+8854727,Asia,England,0,other
+7380535,Asia,England,0,undergraduate
+4929882,North America,England,0,school
+8992587,Africa,England,0,school
+7549064,North America,England,0,undergraduate
+3257280,North America,England,0,school
+5948471,Africa,England,0,school
+9505568,Europe,England,0,school
+4590159,Asia,England,0,other
+5980734,Europe,England,0,other
+8347053,North America,England,0,undergraduate
+1130350,Europe,England,0,school
+5241409,Africa,England,0,school
+8990785,Europe,England,0,school
+9059865,Antarctica,England,0,school
+2334005,Africa,England,0,school
+9689707,Oceania,England,1,undergraduate
+9969967,Asia,England,0,postgraduate
+5049305,Asia,England,0,school
+5027986,Europe,England,0,undergraduate
+2124996,Africa,England,0,undergraduate
+4062873,Africa,England,0,postgraduate
+7062536,North America,England,0,postgraduate
+3249304,Africa,England,0,undergraduate
+9774722,Europe,England,0,school
+4251990,Europe,England,0,undergraduate
+4602442,Europe,England,0,school
+8535553,Oceania,England,0,school
+8581919,Africa,Scotland,0,school
+9423934,Europe,England,0,postgraduate
+3047552,South America,England,0,school
+3833054,Asia,England,0,postgraduate
+9805373,North America,England,0,school
+8548858,Oceania,England,1,postgraduate
+3828678,North America,England,0,school
+2909131,Europe,England,0,other
+2406712,North America,England,1,school
+5197709,Asia,England,0,school
+1802812,Asia,England,0,school
+6630855,Europe,England,0,school
+7555179,Asia,England,0,school
+3816939,Oceania,England,0,school
+7947390,Africa,England,0,school
+7486628,Europe,England,0,school
+4469965,Africa,England,0,postgraduate
+6317337,Africa,England,0,school
+8921747,North America,Scotland,0,school
+8227262,North America,Scotland,0,school
+5374072,Oceania,England,0,postgraduate
+5566305,North America,England,0,undergraduate
+5714824,South America,Wales,0,school
+6824717,North America,England,0,undergraduate
+8823168,Asia,England,0,school
+5996739,Asia,England,0,school
+9703826,Asia,England,0,postgraduate
+6156643,Africa,England,1,school
+3977835,Europe,England,0,undergraduate
+2111832,Africa,England,0,school
+1927129,Africa,England,0,postgraduate
+9196558,Africa,England,0,postgraduate
+4484102,North America,England,0,school
+3459331,Africa,England,0,school
+8983695,Europe,England,0,school
+3916373,Europe,England,0,undergraduate
+4940813,Europe,England,0,school
+8406460,Asia,England,0,school
+1679722,Oceania,England,0,school
+5153000,Oceania,England,0,school
+1053713,Europe,Scotland,0,school
+4495190,Africa,England,0,school
+3186434,Europe,England,0,postgraduate
+5789164,Africa,England,0,school
+2933305,Africa,Scotland,0,other
+5656042,Europe,Overseas territories,0,school
+7568985,Africa,England,0,postgraduate
+3668845,Europe,England,0,undergraduate
+5585110,Oceania,England,0,school
+2156840,Europe,Scotland,0,school
+3812228,Asia,England,0,school
+4378224,Europe,England,0,school
+4358495,Asia,England,0,undergraduate
+8735843,Africa,England,0,postgraduate
+8202796,Europe,Scotland,0,school
+6802669,Europe,England,0,school
+1141111,South America,England,0,undergraduate
+4556192,Asia,England,0,school
+1789460,Asia,England,0,school
+7782958,Oceania,England,0,school
+1059984,Africa,England,0,postgraduate
+1869581,Europe,England,0,postgraduate
+8403702,South America,England,0,school
+8351666,Asia,Scotland,0,school
+3368928,Oceania,England,0,school
+7006448,Africa,Scotland,0,undergraduate
+3378322,Africa,England,0,school
+2572410,Africa,Scotland,0,school
+9441111,Asia,Scotland,1,school
+6213042,Europe,England,0,postgraduate
+3813637,Asia,Scotland,0,school
+1760101,Europe,England,0,school
+7310955,South America,England,0,other
+2316353,South America,England,0,undergraduate
+2232043,Africa,England,0,school
+1043896,North America,England,0,school
+5284444,Africa,Scotland,0,school
+1366377,Africa,England,0,school
+9477960,Europe,England,0,school
+1778075,Asia,England,0,other
+2429577,North America,Wales,0,school
+1045475,North America,England,0,school
+1973995,Europe,England,0,school
+3519033,Europe,Scotland,0,school
+3961227,North America,England,0,school
+9802646,Europe,England,0,school
+8247505,Africa,England,0,postgraduate
+9262560,Europe,England,0,undergraduate
+8066870,Asia,England,0,undergraduate
+8198205,Oceania,Scotland,0,school
+4179562,Asia,England,0,school
+1054730,Europe,England,0,undergraduate
+1713750,Africa,England,0,school
+7786061,Europe,England,0,postgraduate
+1755320,Europe,England,0,school
+3746463,Asia,England,0,school
+3658463,North America,England,0,school
+8259688,Asia,England,0,school
+6613246,Asia,England,0,postgraduate
+4224054,Europe,England,0,school
+6211255,Africa,England,0,school
+9268624,Asia,England,0,other
+6820234,Africa,England,0,school
+8728002,Africa,England,0,school
+2333782,Africa,Scotland,0,undergraduate
+6921367,Europe,England,0,postgraduate
+8125465,Africa,England,0,undergraduate
+5397116,North America,England,0,postgraduate
+8811715,North America,Scotland,0,school
+1756310,Europe,England,0,school
+4592665,Oceania,England,0,undergraduate
+4907529,Africa,England,0,school
+6753846,Europe,Scotland,0,undergraduate
+8587275,Asia,England,0,school
+3727461,Africa,England,1,other
+1714274,Oceania,England,0,school
+2655359,North America,England,0,school
+7750262,South America,England,0,school
+6290316,Oceania,England,0,school
+7539584,Europe,England,0,school
+3729854,South America,England,0,undergraduate
+8032250,Africa,England,0,postgraduate
+8090246,Oceania,England,0,school
+9751087,Africa,England,0,undergraduate
+3344221,Africa,England,0,school
+8508320,Asia,England,0,undergraduate
+1309896,North America,England,0,school
+2778910,Oceania,England,0,undergraduate
+2686756,Europe,England,0,school
+4518554,Europe,England,1,undergraduate
+4873192,Africa,England,0,school
+3126256,North America,England,0,other
+7188359,Asia,England,0,undergraduate
+2402886,North America,England,0,postgraduate
+6860554,Africa,England,0,school
+6138368,Asia,England,0,school
+5199885,Asia,England,0,school
+9543654,Africa,England,0,school
+1151512,Europe,England,0,postgraduate
+7136450,Asia,England,0,school
+8468784,Oceania,England,0,school
+9198342,North America,England,0,other
+5185500,Oceania,Scotland,0,undergraduate
+4882461,South America,Scotland,0,undergraduate
+5580251,Asia,England,0,undergraduate
+1701720,Africa,England,0,undergraduate
+7059587,Europe,England,0,postgraduate
+5529319,Africa,England,1,postgraduate
+5208616,Oceania,England,0,other
+9082856,South America,England,0,school
+8124554,North America,England,0,school
+6154572,Europe,England,0,postgraduate
+5239594,Europe,Northern Ireland,0,postgraduate
+9912994,Africa,England,0,school
+1057354,Asia,England,0,school
+5348245,Africa,England,0,school
+7602984,South America,England,0,postgraduate
+1707537,Europe,England,0,other
+2902828,Europe,England,0,other
+3715144,Europe,Scotland,0,school
+3725064,North America,England,0,other
+5236976,Oceania,Scotland,0,school
+3591974,Europe,England,0,undergraduate
+5133271,Asia,England,0,school
+3234256,Europe,England,0,undergraduate
+2465577,Asia,England,0,other
+7873144,Europe,England,0,school
+1898808,Oceania,England,0,school
+3907760,Asia,England,0,school
+2359562,Asia,England,0,undergraduate
+2750541,Asia,Wales,0,undergraduate
+9549148,Oceania,England,0,postgraduate
+5003608,North America,Wales,0,school
+2919159,Africa,England,0,school
+4906722,Asia,England,0,school
+1702533,Europe,England,0,undergraduate
+1535870,Asia,England,0,school
+9436445,Africa,Scotland,0,school
+7065428,Europe,England,0,undergraduate
+5998874,South America,England,0,undergraduate
+2374219,North America,Wales,0,school
+3306937,Africa,England,0,school
+6171704,Africa,Scotland,0,postgraduate
+8320933,North America,England,0,other
+6682400,Europe,England,0,other
+7920298,North America,England,1,undergraduate
+4704058,Africa,England,0,school
+8128268,Europe,England,0,postgraduate
+9397728,Europe,Scotland,0,undergraduate
+5373943,Africa,England,0,school
+5893695,Africa,England,0,school
+9066408,Oceania,Wales,0,undergraduate
+8378942,Asia,England,0,school
+4438360,Europe,England,0,school
+6526354,Africa,England,0,school
+1700452,North America,England,0,undergraduate
+4307783,Europe,Scotland,0,other
+6816759,Asia,England,0,school
+5381198,South America,England,0,undergraduate
+3721406,Europe,England,0,school
+8202127,Africa,Scotland,0,school
+4344211,Asia,England,0,school
+6066197,Africa,England,0,postgraduate
+9590179,Europe,England,0,other
+4389598,Oceania,England,0,undergraduate
+3890448,Africa,England,0,school
+6469837,Africa,England,0,postgraduate
+6508748,Europe,England,0,undergraduate
+3760386,Asia,England,0,other
+2016649,Europe,England,0,school
+3528379,Africa,England,0,school
+6033268,Africa,England,0,school
+8532730,Oceania,England,0,undergraduate
+2365125,South America,England,0,postgraduate
+6610621,Oceania,England,0,undergraduate
+1551228,Oceania,England,0,school
+4877822,Europe,England,0,school
+3740808,Europe,England,0,school
+2708107,Asia,Wales,1,undergraduate
+8406776,Oceania,England,0,postgraduate
+9711894,South America,England,0,undergraduate
+5672731,Asia,England,0,school
+7778359,Asia,England,0,postgraduate
+4313937,Africa,England,0,undergraduate
+5381693,Asia,Scotland,1,school
+8451352,Oceania,England,0,undergraduate
+3058497,Asia,England,0,postgraduate
+2645874,Africa,England,0,school
+3517747,Asia,England,0,school
+9125248,North America,England,0,postgraduate
+4369302,Europe,England,0,school
+1597739,Africa,England,0,undergraduate
+4212092,Europe,England,0,undergraduate
+5945810,South America,England,0,school
+4720693,South America,England,0,school
+4756860,Oceania,England,0,postgraduate
+6547973,Europe,England,0,school
+6219637,Europe,Scotland,0,school
+9492789,South America,England,0,school
+6197585,Europe,England,0,postgraduate
+8169304,North America,England,0,undergraduate
+9353489,Africa,England,0,school
+7032889,Africa,Scotland,0,school
+8982920,Europe,England,1,other
+5313060,North America,England,1,other
+2178010,Africa,Scotland,0,postgraduate
+7299301,North America,England,0,postgraduate
+1230260,Oceania,England,0,other
+3317065,Africa,Scotland,0,school
+8572029,Africa,England,0,undergraduate
+8439815,North America,England,0,postgraduate
+2368218,Asia,England,0,school
+8163153,Africa,England,0,school
+2512866,Africa,England,0,undergraduate
+8477154,Africa,England,0,undergraduate
+2992261,Asia,Scotland,0,school
+4911599,Europe,England,0,school
+3452226,Europe,Scotland,0,other
+2743454,Europe,England,0,school
+4245490,Africa,England,0,undergraduate
+3050559,Europe,England,0,school
+7032868,Africa,England,0,school
+4953961,Europe,England,0,postgraduate
+5860823,Asia,England,0,undergraduate
+9114090,Africa,England,0,postgraduate
+7103774,South America,England,0,undergraduate
+7202887,Europe,England,0,other
+2509388,North America,England,0,undergraduate
+2208943,North America,England,0,school
+5925257,Oceania,England,0,undergraduate
+1658982,Europe,England,0,school
+4487933,North America,England,0,school
+9505994,North America,England,0,school
+7286249,South America,England,0,postgraduate
+4197524,South America,England,0,school
+7200491,Africa,England,0,school
+3498011,Europe,England,0,postgraduate
+4517554,Africa,Scotland,1,undergraduate
+8199818,Asia,England,0,other
+1387137,Africa,England,0,undergraduate
+6998589,Africa,England,0,school
+8231224,Africa,England,0,undergraduate
+6669525,Africa,England,0,school
+9314573,Europe,England,0,postgraduate
+4177406,Asia,England,0,school
+5090378,Europe,England,0,postgraduate
+5570741,Oceania,England,0,school
+7317124,Oceania,England,0,postgraduate
+4586564,Asia,England,0,undergraduate
+8835407,Africa,England,0,school
+8741819,Europe,England,0,postgraduate
+3716865,Asia,Scotland,1,postgraduate
+2476512,Europe,England,0,undergraduate
+8874894,Asia,England,0,other
+8923126,Europe,England,0,school
+1966094,North America,England,0,school
+5571840,North America,England,0,school
+9713114,Asia,England,0,school
+6438255,Asia,England,0,school
+9661619,Asia,England,0,postgraduate
+4780896,North America,Scotland,0,school
+8967152,Africa,Scotland,0,undergraduate
+1472347,Europe,Scotland,0,undergraduate
+8131145,Africa,England,0,postgraduate
+1529583,Oceania,England,0,school
+1365549,Europe,England,0,school
+2718943,Africa,England,0,school
+6527522,South America,England,0,school
+1712448,Asia,England,0,postgraduate
+2786928,Asia,England,0,undergraduate
+9178891,Africa,England,0,school
+5701325,Oceania,England,0,undergraduate
+5949817,Africa,England,0,school
+8127386,Asia,Scotland,0,undergraduate
+3462231,Europe,Scotland,1,school
+4910275,North America,England,0,other
+4171583,Asia,England,0,other
+8704110,South America,England,0,school
+5528712,Africa,England,0,school
+8694875,Africa,England,0,school
+8606743,Africa,England,0,undergraduate
+3173020,Oceania,England,0,other
+5055775,Asia,England,0,other
+4556101,Asia,England,1,school
+3044309,South America,England,0,undergraduate
+3916269,Oceania,England,0,postgraduate
+4937143,Asia,England,0,undergraduate
+5921776,North America,Scotland,0,undergraduate
+2636736,South America,England,0,school
+3734600,North America,England,0,school
+5377002,Europe,England,1,other
+4350613,Africa,England,0,school
+2516782,Asia,England,0,school
+9368495,Asia,England,0,other
+9768199,Africa,England,0,school
+5086926,North America,England,0,undergraduate
+4370605,Asia,England,0,postgraduate
+9924030,North America,England,0,other
+9570335,North America,Scotland,0,school
+7573398,Africa,England,0,school
+6361510,Europe,England,0,school
+9790903,South America,England,0,postgraduate
+5449881,Europe,England,0,postgraduate
+7556853,North America,England,0,postgraduate
+4829339,North America,England,0,school
+5958787,Oceania,England,0,undergraduate
+4359985,Europe,England,0,school
+6255089,North America,England,0,postgraduate
+7749195,Europe,England,0,undergraduate
+4987478,Europe,England,0,undergraduate
+6642587,Oceania,Scotland,0,school
+8332499,North America,England,0,school
+6080171,Africa,England,0,undergraduate
+4044756,Europe,England,0,school
+8790773,Europe,Scotland,0,other
+1737641,North America,England,1,undergraduate
+9842979,Oceania,England,0,other
+8975366,Europe,England,0,school
+5043623,North America,England,0,postgraduate
+2087411,Europe,England,0,other
+8599222,Africa,England,0,school
+5023030,Asia,England,0,undergraduate
+9011436,North America,England,0,school
+3676176,Asia,England,0,school
+6626368,Europe,England,0,school
+2950047,Asia,Scotland,0,school
+8877475,Asia,England,0,undergraduate
+6962836,South America,England,0,other
+9900672,Asia,England,0,postgraduate
+2587102,North America,England,0,school
+8954897,Asia,Wales,0,school
+9109576,Africa,England,0,school
+6175234,North America,England,0,other
+5473609,Africa,England,0,school
+6091495,Europe,England,0,undergraduate
+5641192,Africa,England,0,school
+1244187,South America,England,0,school
+1120775,Asia,England,0,undergraduate
+2029829,South America,England,0,postgraduate
+3174141,Africa,England,0,school
+5357423,Oceania,England,0,school
+6040363,Oceania,England,0,postgraduate
+5376900,Asia,England,1,undergraduate
+5673074,Africa,England,0,school
+6463110,Europe,England,0,school
+5390121,Asia,England,0,undergraduate
+3650364,Asia,England,0,school
+4801638,Asia,England,0,school
+6501862,North America,England,0,undergraduate
+6125751,Africa,Scotland,0,undergraduate
+2014287,Asia,England,0,school
+2323524,Europe,England,0,school
+9003716,Asia,England,0,undergraduate
+8611863,Europe,England,0,other
+2337618,Asia,England,0,school
+8454210,South America,England,0,school
+6833164,Africa,England,0,postgraduate
+9810733,Europe,Scotland,0,undergraduate
+7167840,North America,England,0,postgraduate
+9581747,North America,England,0,postgraduate
+1839402,Africa,England,0,school
+5279798,Europe,England,0,school
+1529374,Europe,England,0,undergraduate
+6558003,Africa,England,0,school
+9855033,Europe,England,0,school
+7134564,Oceania,England,1,postgraduate
+9732935,Asia,England,0,undergraduate
+3547606,Oceania,England,0,undergraduate
+2599511,Africa,England,0,postgraduate
+4327683,Asia,England,0,postgraduate
+2493856,Asia,England,0,school
+8656012,Africa,England,0,school
+1930473,Asia,England,0,undergraduate
+2760351,Africa,England,0,school
+9330921,Europe,England,0,postgraduate
+9294665,Europe,England,0,school
+7418793,Oceania,England,0,undergraduate
+8783942,Oceania,England,0,school
+6440521,Africa,England,0,school
+1512586,Europe,England,0,undergraduate
+4220086,North America,England,0,school
+9163409,Asia,England,0,postgraduate
+8025068,South America,England,0,undergraduate
+8839409,Africa,England,0,school
+4319676,Europe,Scotland,0,postgraduate
+4281186,Oceania,England,0,school
+3806189,Africa,England,0,school
+9483885,Asia,Scotland,0,school
+5398513,Africa,Wales,0,other
+9727944,South America,England,0,other
+5915308,Europe,Wales,0,undergraduate
+5861401,Oceania,England,0,other
+4700014,Oceania,Wales,0,undergraduate
+9592607,South America,England,0,undergraduate
+9587282,Asia,England,0,school
+7863201,North America,England,0,school
+7142641,North America,England,0,school
+7422546,Africa,England,0,school
+2006484,Europe,England,0,other
+7404529,Europe,Scotland,0,undergraduate
+3186165,Europe,Northern Ireland,0,postgraduate
+5026630,Asia,England,0,undergraduate
+7085096,North America,England,0,school
+8153862,Africa,England,0,postgraduate
+8720226,Asia,England,0,postgraduate
+3778920,Africa,England,0,school
+5696021,Africa,England,0,postgraduate
+6386964,Africa,England,0,school
+8201621,Africa,England,0,postgraduate
+5434576,Asia,England,0,other
+7919030,Asia,England,0,school
+1294748,Europe,England,0,school
+2511928,Asia,England,0,school
+4009409,Europe,England,0,school
+1044592,Asia,England,0,school
+7830406,Oceania,England,0,school
+2449128,North America,England,0,school
+9872641,North America,England,0,school
+1356429,Europe,England,0,undergraduate
+9384834,Oceania,England,0,school
+1250101,Africa,Scotland,0,school
+1254955,Oceania,England,0,postgraduate
+2211950,North America,England,0,school
+7648960,Europe,England,0,school
+6544479,Oceania,England,0,undergraduate
+1560606,Europe,Scotland,0,school
+1066784,Europe,England,0,school
+9950947,Africa,England,0,undergraduate
+5712212,Europe,England,0,undergraduate
+1589708,Africa,England,0,other
+9782156,Europe,England,0,undergraduate
+2892105,Europe,England,0,postgraduate
+5962144,North America,England,0,school
+7231920,North America,England,0,postgraduate
+3935485,Europe,England,0,undergraduate
+5559306,North America,England,0,other
+1715004,Oceania,England,0,undergraduate
+7246295,Asia,Scotland,0,undergraduate
+6143434,Africa,England,0,undergraduate
+3309428,Asia,England,0,school
+1716160,Asia,England,0,other
+7844588,Oceania,England,1,school
+7223106,Europe,England,0,school
+4754823,Asia,England,0,other
+8544463,Africa,England,0,undergraduate
+7745079,Europe,England,0,school
+1387987,Asia,England,0,postgraduate
+1210828,North America,England,0,other
+7391871,Oceania,England,0,school
+9258534,Asia,England,0,undergraduate
+9460233,North America,England,0,school
+3132119,Asia,England,0,school
+9082498,Asia,England,0,school
+2470315,Africa,England,0,postgraduate
+7450765,Europe,England,0,undergraduate
+1361606,Asia,England,0,postgraduate
+1565952,Oceania,England,0,undergraduate
+6559181,Oceania,Scotland,0,school
+4652397,Europe,England,0,school
+6881313,Asia,England,0,school
+8079363,Oceania,England,0,undergraduate
+3700740,Africa,England,0,other
+6479129,Oceania,England,0,school
+4376798,Asia,England,0,school
+4696919,Europe,England,0,undergraduate
+1972427,Oceania,England,0,school
+6531797,Asia,England,0,school
+5242235,North America,England,0,school
+2790454,Europe,England,0,school
+5429251,North America,England,0,other
+5018913,Oceania,England,1,school
+1993595,North America,England,0,school
+7106972,Asia,Wales,0,school
+8081229,Europe,England,0,other
+1922060,Africa,Scotland,0,school
+5206922,Europe,England,0,undergraduate
+2088937,North America,England,0,postgraduate

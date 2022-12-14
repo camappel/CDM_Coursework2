@@ -1,27 +1,14 @@
 {
     "instructions": {
-        "Categorical variables": "Coding information can be found in this file",
-        "Continuous variables": "Standardised: Mean and standard deviations can be found in this file to reverse to original values",
-        "Password": "Dataset is password protected, password can be found in the password.txt file"
+        "Access data file": "The data file is password protected, the password can be found in the password.txt file",
+        "Access original values of attributes": {
+            "Categorical variables": "Coding information can be found in this file",
+            "Continuous variables": "Standardised: Mean and standard deviations can be found in this file to reverse to original values"
+        }
     },
     "gender": {
         "male": 1,
         "female": 0
-    },
-    "education_level": {
-        "college": 1,
-        "school": 2,
-        "other": 3
-    },
-    "blood_group": {
-        "B+": 1,
-        "O-": 2,
-        "O+": 3,
-        "A-": 4,
-        "A+": 5,
-        "AB+": 6,
-        "B-": 7,
-        "AB-": 8
     },
     "weight": {
         "mean": 67.1522,
@@ -31,6 +18,16 @@
         "mean": 1.6970300000000036,
         "sd": 0.17534829946744887
     },
+    "blood_group": {
+        "B+": "a",
+        "O-": "b",
+        "O+": "c",
+        "A-": "d",
+        "A+": "e",
+        "AB+": "f",
+        "B-": "g",
+        "AB-": "h"
+    },
     "avg_n_drinks_per_week": {
         "mean": 4.7658,
         "sd": 2.879830513030891
@@ -38,6 +35,11 @@
     "avg_n_cigret_per_week": {
         "mean": 243.83140000000017,
         "sd": 146.40510417525945
+    },
+    "education_level": {
+        "college": "a",
+        "school": "b",
+        "other": "c"
     },
     "n_countries_visited": {
         "mean": 26.081,
