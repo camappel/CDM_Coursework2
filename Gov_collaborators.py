@@ -54,12 +54,13 @@ def country_to_continent(country_name):
         country_continent_name = pc.convert_continent_code_to_continent_name(country_continent_code)
         return country_continent_name
 # convert
-df_ns['continent_of_birth'] = df_ns['country_of_birth'].apply(country_to_continent)
+df_ns['continent_of_birth'] = df['country_of_birth'].apply(country_to_continent)
 # drop country of birth column
 df_ns = df_ns.drop(columns = 'country_of_birth')
 # check numbers in each continent
 a = df_ns.groupby(['continent_of_birth']).size().reset_index(name='count')
 a
+
 
 ############################### postcode --> banding ##################################
 ####### keep outbound characters only
@@ -78,52 +79,60 @@ post_count
 postcode_country = pd.read_csv('CDM_CW2_G2/Supporting_material/postcode_country.csv')
 post_to_country = dict(zip(postcode_country['Postcode area'], postcode_country['Country']))
 # convert to country
-df_ns['UK_country'] = df_ns['postcode'].replace(post_to_country)
+df_ns['UK_region'] = df_ns['postcode'].replace(post_to_country)
 # drop postcode column
 df_ns = df_ns.drop(columns = 'postcode')
 # check number of individuals in each category
-a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
+a = df_ns.groupby(['UK_region']).size().reset_index(name='count')
 a
 # combine Channel Islands and Isle of Man
-df_ns['UK_country'] = df_ns['UK_country'].replace({'Channel Islands': 'Overseas territories',
-                                                   'Isle of Man': 'Overseas territories'})
+df_ns['UK_region'] = df_ns['UK_region'].replace({'Channel Islands': 'Overseas territories',
+                                                 'Isle of Man': 'Overseas territories'})
+
 # check number of individuals in each category
-a = df_ns.groupby(['UK_country']).size().reset_index(name='count')
+a = df_ns.groupby(['UK_region']).size().reset_index(name='count')
 a
 
 ############### education level ################
 a = df_ns.groupby(['education_level']).size().reset_index(name='count')
 a
 ### combine some categories
-df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'School',
-                                                             'secondary': 'School',
-                                                             'masters': 'Postgraduate',
-                                                             'phD': 'Postgraduate',
-                                                             'bachelor': 'Undergraduate',
-                                                             'other': 'Other'})
+df_ns['education_level'] = df_ns['education_level'].replace({'primary': 'school',
+                                                             'secondary': 'school',
+                                                             'masters': 'postgraduate',
+                                                             'phD': 'postgraduate',
+                                                             'bachelor': 'undergraduate'})
+# check number of individuals in each category
+a = df_ns.groupby(['education_level']).size().reset_index(name='count')
+a
 
 ############### calculate k-anonimity ##################
-a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
+a = df_ns.groupby(['UK_region', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 b = a.loc[a['count']==1]
 a.shape
 b.shape
 # get the sid of the 27 individuals
 df_unique = pd.merge(b, df_ns,  how='left', 
-                  left_on=['UK_country', 'continent_of_birth', 'education_level'], 
-                  right_on = ['UK_country', 'continent_of_birth', 'education_level'])
+                  left_on=['UK_region', 'continent_of_birth', 'education_level'], 
+                  right_on = ['UK_region', 'continent_of_birth', 'education_level'])
 df_unique[['sid', 'count']]
 # remove
 df_ns = df_ns[df_ns['sid'].isin(df_unique['sid']) == False]
 
 # 2-anonymity
-a = df_ns.groupby(['UK_country', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
+a = df_ns.groupby(['UK_region', 'continent_of_birth', 'education_level']).size().reset_index(name='count')
 a['count'].min()
+
+##### example for l-diversity
+groups = a.loc[a['count'] == 5]
+tmp = df_ns[(df_ns["UK_region"] == 'Scotland') & (df_ns["continent_of_birth"] == 'Africa') & (df_ns['education_level'] == 'postgraduate')]
+tmp
 
 # save CSVs
 # sensitive file: same as the sensitive_info file for researchers, but with sid column
 # file for government collaborators
 # file for researchers
-df_ns_reorder = df_ns[['sid', 'education_level', 'cc_status', 'continent_of_birth', 'UK_country']]
+df_ns_reorder = df_ns[['sid', 'cc_status', 'education_level', 'continent_of_birth', 'UK_region']]
 df_ns_reorder.to_csv('CDM_CW2_G2/Anonymised_data/Government_collaborators/gov_dataset.csv', index = False)
 
 ########### password for file ###########

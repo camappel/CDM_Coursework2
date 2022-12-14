@@ -122,7 +122,7 @@ imp_info['n_countries_visited'] = tmp[1]
 
 ############### calculate k-anonimity ##################
 groups = df_ns.groupby(['gender', 'age', 'education_level']).size().reset_index(name='count')
-u_groups = groups.loc[groups['count'] == 1]
+u_groups = groups.loc[groups['count'] == 9]
 u_groups.shape
 ######
 k = groups['count'].min()
