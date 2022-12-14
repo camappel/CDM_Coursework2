@@ -134,7 +134,7 @@ u_groups = groups.loc[groups['count'] == 1]
 u_groups.shape
 ######
 k = groups['count'].min()
-print(k) # 87-anonymity
+print(k) # 108-anonymity
 
 ############# save CSVs ############
 # direct identifiers file
